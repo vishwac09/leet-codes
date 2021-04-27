@@ -1,2 +1,2 @@
 # LeetCodes
-Collection of all Examples solved on LeetCode
+Collection of all Examples solved on www.leetcode.com
