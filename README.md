@@ -18,3 +18,5 @@ Collection of all Examples solved on www.leetcode.com
 * [Palindrome Number](https://leetcode.com/problems/palindrome-number)
 * [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) (https://www.youtube.com/watch?v=HAA8mgxlov8&t=2s)
 * [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
+* [Number Complement](https://leetcode.com/problems/number-complement/)
+* [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
