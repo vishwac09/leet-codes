@@ -1,5 +1,6 @@
 # gitignore template for PHP Project
 
 vendor
-
+.idea
+.DS_Store
 

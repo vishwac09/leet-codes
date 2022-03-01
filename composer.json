@@ -25,5 +25,8 @@
   },
   "scripts": {
     "test": "./vendor/bin/phpunit tests"
+  },
+  "require": {
+    "vishwac09/php-algo-scaffold": "dev-master"
   }
 }

@@ -11,7 +11,7 @@ class RegularExpressionMatching
      */
     function isMatch(string $s, string $p): bool
     {
-        if (strlen($p) === 0) return (boolean) strlen($s);
-        return true;
+        $pattern = '/' . $p . '/';
+        return preg_match($pattern, $s);
     }
 }

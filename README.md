@@ -20,3 +20,4 @@ Collection of all Examples solved on www.leetcode.com
 * [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
 * [Number Complement](https://leetcode.com/problems/number-complement/)
 * [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
+* [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
