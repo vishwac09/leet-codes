@@ -1,5 +1,7 @@
 <?php
 
+namespace LeetCode\Problems\AddTwoNumbers;
+
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -11,53 +13,61 @@
  *     }
  * }
  */
-class Solution
+class AddTwoNumbers
 {
 
-  /**
-   * @param ListNode $l1
-   * @param ListNode $l2
-   * @return ListNode
-   */
+    /**
+     * @param ListNode $l1
+     * @param ListNode $l2
+     * @return ListNode
+     */
     function addTwoNumbers($l1, $l2)
     {
-        $a = [];
-        $b = [];
-        while ($l1 || $l2) {
-            $a[] = $l1->val ?? 0;
-            $b[] = $l2->val ?? 0;
-            $l1 = $l1->next ?? null;
-            $l2 = $l2->next ?? null;
+        $a1 = $this->parseNode($l1);
+        $a2 = $this->parseNode($l2);
+        $max = count($a1) > count($a2) ? count($a1) : count($a2);
+        $a3 = [];
+        $oldCarry = $carry = 0;
+        for ($i=0; $i<$max; $i++) {
+            $n1 = $a1[$i] ?? 0;
+            $n2 = $a2[$i] ?? 0;
+            $oldCarry = $carry;
+            $carry = ($n1+$n2+$carry) > 9 ? 1 : 0;
+            $a3[] = ($n1+$n2+$oldCarry)%10;
         }
-        $carry = -1;
-        if (count($a) > count($b)) {
-            $largerArray = $a;
-            $smaller = $b;
-        } else {
-            $largerArray = $b;
-            $smaller = $a;
+        if ($carry) {
+            $a3[] = $carry;
         }
-        $li = null;
-        $start = null;
-        foreach ($largerArray as $key => $value) {
-            $sum = $value + (!empty($smaller[$key]) ? $smaller[$key] : 0) + $carry;
-            if ($sum >= 10) {
-                $carry = (int)$sum/10;
-                $sum = $sum%10;
-            }
-            if (!isset($li)) {
-                $li = new ListNode($sum, null);
-                $start = $li;
-            } else {
-                $li->next = new ListNode($sum, null);
-                $li = $li->next;
-            }
+        $a3 = $this->createListNode($a3);
+        return $a3;
+    }
+    
+    /**
+     * Function will traverse the ListNode and return array.
+     * @param ListNode $ln
+     * @return []
+     */
+    function parseNode($ln) {
+        $number = [];
+        while($ln != null) {
+            $number[] = $ln->val;
+            $ln = $ln->next;
         }
-        if ($carry > 0) {
-            $li->next = new ListNode($sum, null);
-            $li = $li->next;
+        return array_reverse($number);
+    }
+    
+    /**
+     * Creates  ListNode from given array.
+     * @param array
+     * @param int
+     * @return ListNode
+     */
+    function createListNode($list, $index=0) {
+        if (isset($list[$index])) {
+            $node = $this->createListNode($list, $index+1);
+            return new ListNode($list[$index], $node);
         }
-        return $start;
+        return null;
     }
 }
 
@@ -71,21 +81,3 @@ class ListNode
         $this->next = $next;
     }
 }
-
-// 7->3->2->1
-$a = new ListNode(3, null);
-$b = new ListNode(4, $a);
-$c = new ListNode(1, $b);
-
-// 6->5->4
-$p = new ListNode(4, null);
-$q = new ListNode(6, $p);
-$r = new ListNode(5, $q);
-
-$s = new Solution();
-print_r($s->addTwoNumbers($c, $r));
-
-//1 2 3 7
-//4 5 6
-
-//5 7 9 7
