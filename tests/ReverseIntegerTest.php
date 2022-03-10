@@ -7,7 +7,6 @@ use LeetCode\Problems\ReverseInteger\ReverseInteger;
 
 final class ReverseIntegerTest extends TestCase
 {
-
     public function testReverseIntegerExample1()
     {
         $revInt = new ReverseInteger();

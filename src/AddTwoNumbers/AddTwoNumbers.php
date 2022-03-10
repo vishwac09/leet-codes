@@ -62,7 +62,8 @@ class AddTwoNumbers
      * @param int
      * @return ListNode
      */
-    function createListNode($list, $index=0) {
+    function createListNode($list, $index=0)
+    {
         if (isset($list[$index])) {
             $node = $this->createListNode($list, $index+1);
             return new ListNode($list[$index], $node);

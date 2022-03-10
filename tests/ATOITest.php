@@ -7,7 +7,8 @@ use LeetCode\Problems\ATOI\ATOI;
 
 class ATOITest extends TestCase
 {
-    public function testATOIExample1() {
+    public function testATOIExample1()
+    {
         $atoi = new ATOI();
         $this->assertSame(42, $atoi->myAtoi("42uqehoqwheowheoqweQWEQWE**"));
         $this->assertSame(-42, $atoi->myAtoi("-42uqehoqwheowheoqweQWEQWE**"));

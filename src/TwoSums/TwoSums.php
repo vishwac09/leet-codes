@@ -15,7 +15,7 @@ class TwoSums
         $total = count($nums);
         foreach ($nums as $key => $value) {
             for ($i = ($key+1); $i<$total; $i++) {
-                if ((($nums[$key]) + ($nums[$i])) === $target) {
+                if ((($value) + ($nums[$i])) === $target) {
                     return [$key, $i];
                 }
             }
