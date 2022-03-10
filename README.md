@@ -20,6 +20,7 @@ Collection of all Examples solved on www.leetcode.com
 * [Number Complement](https://leetcode.com/problems/number-complement/)
 * [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
 * [Three Sum](https://leetcode.com/problems/3sum/)
+* [Roman To Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
