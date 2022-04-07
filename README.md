@@ -21,6 +21,8 @@ Collection of all Examples solved on www.leetcode.com
 * [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
 * [Three Sum](https://leetcode.com/problems/3sum/)
 * [Roman To Integer](https://leetcode.com/problems/roman-to-integer/)
+* [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+* [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
