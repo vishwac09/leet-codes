@@ -20,6 +20,8 @@ Collection of all Examples solved on www.leetcode.com
 * [Number Complement](https://leetcode.com/problems/number-complement/)
 * [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
 * [Three Sum](https://leetcode.com/problems/3sum/)
+* [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+* [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
