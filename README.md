@@ -1,5 +1,5 @@
 # LeetCodes
-Collection of all Examples solved on www.leetcode.com
+Collection of Examples solved on www.leetcode.com
 
 ## Running Test Cases
 ```
@@ -24,6 +24,9 @@ Collection of all Examples solved on www.leetcode.com
 * [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 * [Merge Two Sorted Arrays](https://leetcode.com/problems/merge-two-sorted-lists/)
-
+* [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+* [Remove Element](https://leetcode.com/problems/remove-element/)
+* [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+* [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)

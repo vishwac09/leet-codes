@@ -1,6 +1,5 @@
 <?php
 
-
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\ThreeSum\ThreeSum;

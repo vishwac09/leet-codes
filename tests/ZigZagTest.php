@@ -1,6 +1,5 @@
 <?php
 
-
 namespace LeetCode\Tests;
 
 use PHPUnit\Framework\TestCase;
