@@ -3,7 +3,6 @@
 namespace LeetCode\Tests;
 
 use PHPUnit\Framework\TestCase;
-
 use LeetCode\Problems\MedianSortedArrays\MedianSortedArrays;
 
 final class MedianSortedArraysTest extends TestCase

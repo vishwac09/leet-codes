@@ -28,5 +28,13 @@ Collection of Examples solved on www.leetcode.com
 * [Remove Element](https://leetcode.com/problems/remove-element/)
 * [Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 * [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+* [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+* [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+* [Plus One](https://leetcode.com/problems/plus-one/)
+* [Add Binary](https://leetcode.com/problems/add-binary/)
+* [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+* [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+* [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
