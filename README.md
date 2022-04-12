@@ -36,5 +36,9 @@ Collection of Examples solved on www.leetcode.com
 * [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 * [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 * [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+* [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [Same Tree](https://leetcode.com/problems/same-tree/)
+* [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+* [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)

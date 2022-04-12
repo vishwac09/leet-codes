@@ -1,5 +1,5 @@
 {
-  "name": "vishwachikate/leet-code",
+  "name": "vishwac09/leet-code",
   "description": "Collection of Problems solved on LeetCode",
   "type": "project",
   "license": "GPL-2.0+",
@@ -16,15 +16,15 @@
   },
   "autoload": {
     "psr-4": {
-      "LeetCode\\Problems\\": "src"
+      "LeetCode\\Problems\\": "src/php"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LeetCode\\Tests\\": "tests"
+      "LeetCode\\Tests\\": "tests/php"
     }
   },
   "scripts": {
-    "tests": "./vendor/bin/phpunit --colors tests"
+    "tests": "./vendor/bin/phpunit --colors tests/php"
   }
 }
