@@ -52,5 +52,8 @@ Collection of Examples solved on www.leetcode.com
 * [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 * [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 * [Path Sum](https://leetcode.com/problems/path-sum/)
+* [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)
+* [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+* [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
