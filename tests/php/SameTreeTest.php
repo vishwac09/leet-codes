@@ -4,6 +4,7 @@ namespace LeetCode\Tests;
 
 use LeetCode\Problems\SameTree\SameTree;
 use PHPUnit\Framework\TestCase;
+use LeetCode\Tests\Helpers\TreeNode;
 
 final class SameTreeTest extends TestCase
 {
@@ -16,15 +17,4 @@ final class SameTreeTest extends TestCase
         $q = new TreeNode(1, $p);
         $this->assertEquals(true, $st->isSameTree($b, $q));
 	}
-}
-
-class TreeNodes {
-    public $val = null;
-    public $left = null;
-    public $right = null;
-    function __construct($val = 0, $left = null, $right = null) {
-        $this->val = $val;
-        $this->left = $left;
-        $this->right = $right;
-    }
 }

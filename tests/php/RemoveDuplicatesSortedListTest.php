@@ -3,6 +3,7 @@
 namespace LeetCode\Tests;
 
 use \LeetCode\Problems\RemoveDuplicatesSortedList\RemoveDuplicatesSortedList;
+use LeetCode\Tests\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
 
 final class RemoveDuplicatesSortedListTest extends TestCase
@@ -24,13 +25,4 @@ final class RemoveDuplicatesSortedListTest extends TestCase
         $this->assertEquals(1, $s->val);
         $this->assertNull($s->next);
 	}
-}
-
-class ListNode {
-    public $val = 0;
-    public $next = null;
-    function __construct($val = 0, $next = null) {
-        $this->val = $val;
-        $this->next = $next;
-    }
 }
