@@ -65,5 +65,10 @@ Collection of Examples solved on www.leetcode.com
 * [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 * [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 * [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+* [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+* [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+* [Design HashSet](https://leetcode.com/problems/design-hashset/)
+* [Happy Number](https://leetcode.com/problems/happy-number/)
+* [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
