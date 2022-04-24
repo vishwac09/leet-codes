@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee16fe280e929b0f864c0d331ec84e7b",
+    "content-hash": "79200f272a6b055aa3141c8f60a85753",
     "packages": [],
     "packages-dev": [
         {
@@ -2384,16 +2384,16 @@
         },
         {
             "name": "vishwac09/php-algo-scaffold",
-            "version": "1.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vishwac09/php-algo-scaffold.git",
-                "reference": "91de8ca20bca4bb9fc51d5baaca80851f20dede8"
+                "reference": "e047be296d2e770430c392ecf5b42e807649b026"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vishwac09/php-algo-scaffold/zipball/91de8ca20bca4bb9fc51d5baaca80851f20dede8",
-                "reference": "91de8ca20bca4bb9fc51d5baaca80851f20dede8",
+                "url": "https://api.github.com/repos/vishwac09/php-algo-scaffold/zipball/e047be296d2e770430c392ecf5b42e807649b026",
+                "reference": "e047be296d2e770430c392ecf5b42e807649b026",
                 "shasum": ""
             },
             "require": {
@@ -2403,6 +2403,7 @@
             "require-dev": {
                 "squizlabs/php_codesniffer": "*"
             },
+            "default-branch": true,
             "bin": [
                 "bin/pas"
             ],
@@ -2427,7 +2428,7 @@
                 "issues": "https://github.com/vishwac09/php-algo-scaffold/issues",
                 "source": "https://github.com/vishwac09/php-algo-scaffold/tree/1.0.3"
             },
-            "time": "2022-04-14T16:14:04+00:00"
+            "time": "2022-04-23T06:56:48+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -2491,7 +2492,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "vishwac09/php-algo-scaffold": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
