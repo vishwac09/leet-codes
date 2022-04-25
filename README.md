@@ -84,5 +84,6 @@ Collection of Examples solved on www.leetcode.com
 * [Summary Ranges](https://leetcode.com/problems/summary-ranges/)
 * [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)
 * [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+* [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
