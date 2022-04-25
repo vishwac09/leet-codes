@@ -4,7 +4,7 @@ namespace LeetCode\Tests;
 
 use LeetCode\Problems\MaximumDepthBinaryTree\MaximumDepthBinaryTree;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 
 final class MaximumDepthBinaryTreeTest extends TestCase
 {

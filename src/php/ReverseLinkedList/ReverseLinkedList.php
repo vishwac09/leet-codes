@@ -6,7 +6,7 @@
 
 namespace LeetCode\Problems\ReverseLinkedList;
 
-use LeetCode\Tests\Helpers\ListNode;
+use LeetCode\Problems\Helpers\ListNode;
 
 class ReverseLinkedList
 {

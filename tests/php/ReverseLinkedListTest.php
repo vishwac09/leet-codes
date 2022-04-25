@@ -3,8 +3,8 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\ReverseLinkedList\ReverseLinkedList;
+use LeetCode\Problems\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\ListNode;
 
 final class ReverseLinkedListTest extends TestCase
 {

@@ -3,7 +3,7 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\RemoveNNodeEndList\RemoveNNodeEndList;
-use LeetCode\Tests\Helpers\ListNode;
+use LeetCode\Problems\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
 
 final class RemoveNNodeEndListTest extends TestCase

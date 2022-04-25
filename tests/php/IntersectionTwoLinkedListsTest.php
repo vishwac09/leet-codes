@@ -5,8 +5,8 @@
  */
 
 use LeetCode\Problems\IntersectionTwoLinkedLists\IntersectionTwoLinkedLists;
+use LeetCode\Problems\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\ListNode;
 
 final class IntersectionTwoLinkedListsTest extends TestCase
 {

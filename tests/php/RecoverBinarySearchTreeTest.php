@@ -3,8 +3,8 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\RecoverBinarySearchTree\RecoverBinarySearchTree;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\TreeNode;
 
 final class RecoverBinarySearchTreeTest extends TestCase
 {

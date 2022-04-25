@@ -2,8 +2,8 @@
 
 namespace LeetCode\Tests;
 
-use \LeetCode\Problems\RemoveDuplicatesSortedList\RemoveDuplicatesSortedList;
-use LeetCode\Tests\Helpers\ListNode;
+use LeetCode\Problems\RemoveDuplicatesSortedList\RemoveDuplicatesSortedList;
+use LeetCode\Problems\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
 
 final class RemoveDuplicatesSortedListTest extends TestCase

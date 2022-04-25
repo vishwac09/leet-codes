@@ -1,4 +1,6 @@
 # LeetCodes
+[![Run Test cases on LeetCodes repository](https://github.com/vishwac09/LeetCodes/actions/workflows/leet-code-run-tests.yml/badge.svg?branch=master&event=push)](https://github.com/vishwac09/LeetCodes/actions/workflows/leet-code-run-tests.yml)
+
 Collection of Examples solved on www.leetcode.com
 
 ## Running Test Cases

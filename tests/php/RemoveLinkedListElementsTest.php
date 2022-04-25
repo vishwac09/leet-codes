@@ -3,8 +3,8 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\RemoveLinkedListElements\RemoveLinkedListElements;
+use LeetCode\Problems\Helpers\ListNode;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\ListNode;
 
 final class RemoveLinkedListElementsTest extends TestCase
 {

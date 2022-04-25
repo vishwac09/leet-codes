@@ -6,7 +6,7 @@
 
 namespace LeetCode\Problems\IncreasingOrderSearchTree;
 
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 
 class IncreasingOrderSearchTree
 {

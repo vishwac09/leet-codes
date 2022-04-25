@@ -3,7 +3,7 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\PathSumII\PathSumII;
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
 
 final class PathSumIITest extends TestCase

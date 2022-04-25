@@ -6,7 +6,7 @@
 
 namespace LeetCode\Problems\SearchBinarySearchTree;
 
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 
 class SearchBinarySearchTree
 {

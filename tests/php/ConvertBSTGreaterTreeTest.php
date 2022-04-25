@@ -3,7 +3,7 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\ConvertBSTGreaterTree\ConvertBSTGreaterTree;
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
 
 final class ConvertBSTGreaterTreeTest extends TestCase

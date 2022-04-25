@@ -3,8 +3,8 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\BinaryTreePreorderTraversal\BinaryTreePreorderTraversal;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
-use LeetCode\Tests\Helpers\TreeNode;
 
 final class BinaryTreePreorderTraversalTest extends TestCase
 {

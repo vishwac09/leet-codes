@@ -1,6 +1,6 @@
 <?php
 
-namespace LeetCode\Tests\Helpers;
+namespace LeetCode\Problems\Helpers;
 
 class TreeNode {
     public $val = null;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LeetCode\Tests\Helpers;
+namespace LeetCode\Problems\Helpers;
 
 class ListNode {
     public $val = 0;

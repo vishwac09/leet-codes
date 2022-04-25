@@ -3,8 +3,9 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\KSmallestElementBST\KSmallestElementBST;
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
+
 final class KSmallestElementBSTTest extends TestCase
 {
 	public function testKSmallestElementBSTTestExample1()

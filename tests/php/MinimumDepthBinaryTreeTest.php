@@ -3,7 +3,7 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\MinimumDepthBinaryTree\MinimumDepthBinaryTree;
-use LeetCode\Tests\Helpers\TreeNode;
+use LeetCode\Problems\Helpers\TreeNode;
 use PHPUnit\Framework\TestCase;
 final class MinimumDepthBinaryTreeTest extends TestCase
 {
