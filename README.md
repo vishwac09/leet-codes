@@ -79,5 +79,10 @@ Collection of Examples solved on www.leetcode.com
 * [Ransom note](https://leetcode.com/problems/ransom-note/)
 * [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 * [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+* [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+* [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+* [Summary Ranges](https://leetcode.com/problems/summary-ranges/)
+* [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)
+* [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
