@@ -19,6 +19,6 @@ final class DeleteNodeLinkedListTest extends TestCase
         $c->next = $d;
         $dnll = new DeleteNodeLinkedList($a);
         $res = $dnll->deleteNode($b);
-        $this->assertEquals(4, $res->val);
+        $this->assertEquals(null, $res);
 	}
 }
