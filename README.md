@@ -90,6 +90,8 @@ Collection of Examples solved on www.leetcode.com
 * [Power of Two](https://leetcode.com/problems/power-of-two/)
 * [Implement Queue Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 * [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+* [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+* [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
