@@ -95,6 +95,12 @@ Collection of Examples solved on www.leetcode.com
 * [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 * [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 * [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+* [Add Digits](https://leetcode.com/problems/add-digits/)
+* [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
+* [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+* [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+* [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
+* [Find the Difference](https://leetcode.com/problems/find-the-difference/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
