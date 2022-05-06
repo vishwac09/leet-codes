@@ -101,6 +101,10 @@ Collection of Examples solved on www.leetcode.com
 * [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 * [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 * [Find the Difference](https://leetcode.com/problems/find-the-difference/)
+* [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+* [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)
+* [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)
+* [](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
