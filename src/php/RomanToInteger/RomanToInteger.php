@@ -12,7 +12,7 @@ class RomanToInteger
      * @param String $s
      * @return Integer
      */
-    function romanToInt($s) {
+    function romanToIntOld($s) {
         $len = strlen($s);
         $i = 0;
         $result = 0;
@@ -30,7 +30,27 @@ class RomanToInteger
         }
         return $result;
     }
-
+    
+    /**
+     * @param String $s
+     * @return Integer
+     */
+    function romanToInt($s) {
+        $len = strlen($s);
+        $i = 0;
+        $result = 0;
+        while ($i < $len) {
+            if (isset($s[$i+1]) && $this->romanToDecimal($s[$i]) < $this->romanToDecimal($s[$i+1])) {
+                $result += $this->romanToDecimal($s[$i+1]) - $this->romanToDecimal($s[$i]);
+                $i++;
+            } else {
+                $result += $this->romanToDecimal($s[$i]);
+            }
+            $i++;
+        }
+        return $result;
+    }
+    
     /**
      * Converts roman characters to decimal.
      * @param String $char
