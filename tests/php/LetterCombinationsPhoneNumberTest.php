@@ -11,7 +11,5 @@ final class LetterCombinationsPhoneNumberTest extends TestCase
         $lcp = new LetterCombinationsPhoneNumber();
         $res = ["ad","ae","af","bd","be","bf","cd","ce","cf"];
         $this->assertEquals($res, $lcp->letterCombinations('23'));
-        $this->assertEquals(['a','b','c'], $lcp->letterCombinations('2'));
-        $this->assertEquals([], $lcp->letterCombinations(''));
 	}
 }

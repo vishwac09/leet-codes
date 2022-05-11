@@ -111,6 +111,10 @@ Collection of Examples solved on www.leetcode.com
 * [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 * [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 * [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)
+* [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
+* [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+* [Combination Sum](https://leetcode.com/problems/combination-sum/)
+* [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
