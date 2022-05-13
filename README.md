@@ -115,6 +115,7 @@ Collection of Examples solved on www.leetcode.com
 * [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 * [Combination Sum](https://leetcode.com/problems/combination-sum/)
 * [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)
+* [](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)

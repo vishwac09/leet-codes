@@ -11,7 +11,7 @@ final class CountSortedVowelStringsTest extends TestCase
 	public function testCountSortedVowelStringsTestExample1()
 	{
         $cvs = new CountSortedVowelStrings();
-        $this->assertEquals(66045, $cvs->countVowelStrings(2));
-        //$this->assertEquals(5, $cvs->countVowelStrings(1));
+        $this->assertEquals(15, $cvs->countVowelStrings(2));
+        $this->assertEquals(5, $cvs->countVowelStrings(1));
 	}
 }

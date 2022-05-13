@@ -20,7 +20,6 @@ class CountSortedVowelStrings
             return 5;
         }
         $this->vowels($n, 0, '');
-        print_r($this->rest);die;
         return $this->count;
     }
     
