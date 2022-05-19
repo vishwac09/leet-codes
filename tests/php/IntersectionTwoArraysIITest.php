@@ -10,5 +10,7 @@ final class IntersectionTwoArraysIITest extends TestCase
 {
 	public function testIntersectionTwoArraysIITestExample1()
 	{
+        $ita = new IntersectionTwoArraysII();
+        $this->assertEquals([0=>2], $ita->intersect([1,2,2,1], [2]));
 	}
 }
