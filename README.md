@@ -119,6 +119,11 @@ Collection of Examples solved on www.leetcode.com
 * [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 * [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)
 * [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+* [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+* [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+* [Counting Bits](https://leetcode.com/problems/counting-bits/)
+* [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+* [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)

@@ -26,7 +26,7 @@ class HappyNumber
         $totalSum = 0;
         while ($n > 0) {
             $totalSum += pow($n%10,2);
-            $n = $n/10;
+            $n =  intval($n/10);
         }
         return $totalSum;
     }
