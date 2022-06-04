@@ -123,6 +123,12 @@ Collection of Examples solved on www.leetcode.com
 * [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 * [Counting Bits](https://leetcode.com/problems/counting-bits/)
 * [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+* [Missing Number](https://leetcode.com/problems/missing-number/)
+* [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
+* [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
+* [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+* [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+* [Reverse String](https://leetcode.com/problems/reverse-string/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
