@@ -133,6 +133,8 @@ Collection of Examples solved on www.leetcode.com
 * [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)
 * [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 * [Word Pattern](https://leetcode.com/problems/word-pattern/)
+* [Triangle](https://leetcode.com/problems/triangle/)
+* [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
