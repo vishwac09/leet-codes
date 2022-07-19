@@ -135,6 +135,10 @@ Collection of Examples solved on www.leetcode.com
 * [Word Pattern](https://leetcode.com/problems/word-pattern/)
 * [Triangle](https://leetcode.com/problems/triangle/)
 * [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
+* [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+* [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
+* [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
+* [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
