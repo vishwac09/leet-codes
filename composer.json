@@ -11,6 +11,7 @@
   ],
   "minimum-stability": "dev",
   "require-dev": {
+    "php": "^8.0",
     "phpunit/phpunit": "^9",
     "vishwac09/php-algo-scaffold": "dev-master"
   },
