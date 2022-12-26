@@ -2077,17 +2077,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vishwac09/php-algo-scaffold.git",
-                "reference": "e047be296d2e770430c392ecf5b42e807649b026"
+                "reference": "964ed8b21990312506ecaa137767cdb1eb764e89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vishwac09/php-algo-scaffold/zipball/e047be296d2e770430c392ecf5b42e807649b026",
-                "reference": "e047be296d2e770430c392ecf5b42e807649b026",
+                "url": "https://api.github.com/repos/vishwac09/php-algo-scaffold/zipball/964ed8b21990312506ecaa137767cdb1eb764e89",
+                "reference": "964ed8b21990312506ecaa137767cdb1eb764e89",
                 "shasum": ""
             },
             "require": {
                 "league/climate": "^3.8",
-                "nette/php-generator": "^3.5"
+                "nette/php-generator": "^3.5",
+                "php": "^8.0"
             },
             "require-dev": {
                 "squizlabs/php_codesniffer": "*"
@@ -2115,9 +2116,9 @@
             "description": "When solving algorithmic examples on local machine (leetcode.com), this package allows me to create executable/test files faster.",
             "support": {
                 "issues": "https://github.com/vishwac09/php-algo-scaffold/issues",
-                "source": "https://github.com/vishwac09/php-algo-scaffold/tree/1.0.3"
+                "source": "https://github.com/vishwac09/php-algo-scaffold/tree/master"
             },
-            "time": "2022-04-23T06:56:48+00:00"
+            "time": "2022-12-23T12:02:11+00:00"
         }
     ],
     "aliases": [],
