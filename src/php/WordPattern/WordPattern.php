@@ -14,20 +14,23 @@ class WordPattern
      * @return Boolean
      */
     function wordPattern($pattern, $s) {
-        $str = $s;
-        if ($pattern==$str || $pattern=="") return false;
-		$str = explode(" ", $str);
-		if(count($str)==1 && strlen($pattern)>1){
-			$str = str_split($str[0]);
-		} 
-		
-		foreach($str as $key => $word){
-			if(isset($res[$pattern[$key]])){
-				if($res[$pattern[$key]] != $word) return false;
-			}
-			$res[$pattern[$key]] = $word;
-		}
-		
-		return count($res) == count(array_unique($res));
+        if (empty($pattern)) return false;
+        $parts = explode(' ', $s);
+        $p_len = strlen($pattern);
+        if ($p_len !== count($parts)) return false;
+        $map = []; $r_map = [];
+        $flag = false;
+        for($i=0; $i<$p_len;$i++) {
+            if (!isset($map[$pattern[$i]])) {
+                $map[$pattern[$i]] = $parts[$i];
+            }
+            if ($map[$pattern[$i]] == $parts[$i]) {
+                $flag = true;
+            } else {
+                $flag = false;
+                break;
+            }
+        }
+        return $flag;
     }
 }
