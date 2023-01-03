@@ -139,6 +139,7 @@ Collection of Examples solved on www.leetcode.com
 * [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
 * [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 * [Detect Capital](https://leetcode.com/problems/detect-capital/description/)
+* [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)

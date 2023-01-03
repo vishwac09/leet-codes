@@ -9,31 +9,32 @@
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
-            "version": "1.5.x-dev",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc"
+                "reference": "be82c048640f95d3a43beb720ab411272bb1be44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/10dcfce151b967d20fde1b34ae6640712c3891bc",
-                "reference": "10dcfce151b967d20fde1b34ae6640712c3891bc",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/be82c048640f95d3a43beb720ab411272bb1be44",
+                "reference": "be82c048640f95d3a43beb720ab411272bb1be44",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^8.1"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9",
+                "doctrine/coding-standard": "^11",
                 "ext-pdo": "*",
                 "ext-phar": "*",
-                "phpbench/phpbench": "^0.16 || ^1",
-                "phpstan/phpstan": "^1.4",
-                "phpstan/phpstan-phpunit": "^1",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.22"
+                "phpbench/phpbench": "^1.2",
+                "phpstan/phpstan": "^1.9.4",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^9.5.27",
+                "vimeo/psalm": "^5.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -59,7 +60,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/instantiator/issues",
-                "source": "https://github.com/doctrine/instantiator/tree/1.4.x"
+                "source": "https://github.com/doctrine/instantiator/tree/2.0.x"
             },
             "funding": [
                 {
@@ -75,7 +76,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-03T08:28:38+00:00"
+            "time": "2022-12-30T18:52:38+00:00"
         },
         {
             "name": "league/climate",
@@ -537,12 +538,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "709ee6094447d7adb00a587c74ddcc664f03b061"
+                "reference": "3bd773131666fd5457a2a89ff790dfd2b2260ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/709ee6094447d7adb00a587c74ddcc664f03b061",
-                "reference": "709ee6094447d7adb00a587c74ddcc664f03b061",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/3bd773131666fd5457a2a89ff790dfd2b2260ae9",
+                "reference": "3bd773131666fd5457a2a89ff790dfd2b2260ae9",
                 "shasum": ""
             },
             "require": {
@@ -606,7 +607,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-22T07:57:08+00:00"
+            "time": "2023-01-02T08:36:34+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -855,16 +856,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "52401735cb924dd353d3fe9cc05b4b3bec2afa8b"
+                "reference": "9af616c4aae748a7cc83a9836d9f302011b79dd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/52401735cb924dd353d3fe9cc05b4b3bec2afa8b",
-                "reference": "52401735cb924dd353d3fe9cc05b4b3bec2afa8b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9af616c4aae748a7cc83a9836d9f302011b79dd4",
+                "reference": "9af616c4aae748a7cc83a9836d9f302011b79dd4",
                 "shasum": ""
             },
             "require": {
-                "doctrine/instantiator": "^1.3.1",
+                "doctrine/instantiator": "^1.3.1 || ^2",
                 "ext-dom": "*",
                 "ext-json": "*",
                 "ext-libxml": "*",
@@ -949,7 +950,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-23T05:43:26+00:00"
+            "time": "2023-01-02T08:33:27+00:00"
         },
         {
             "name": "psr/log",
