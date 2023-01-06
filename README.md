@@ -141,6 +141,8 @@ Collection of Examples solved on www.leetcode.com
 * [Detect Capital](https://leetcode.com/problems/detect-capital/description/)
 * [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)
 * [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/)
+* [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+* [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
