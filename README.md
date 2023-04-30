@@ -144,6 +144,7 @@ Collection of Examples solved on www.leetcode.com
 * [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
 * [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)
 * [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/)
+* [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)
 ## Unsolved
 * [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 * [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)

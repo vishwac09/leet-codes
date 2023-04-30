@@ -3,7 +3,6 @@
 namespace LeetCode\Tests;
 
 use LeetCode\Problems\MergeTwoSortedArrays\MergeTwoSortedArrays;
-use LeetCode\Problems\MergeTwoSortedArrays\ListNode;
 use PHPUnit\Framework\TestCase;
 
 final class MergeTwoSortedArraysTest extends TestCase
