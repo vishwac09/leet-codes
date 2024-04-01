@@ -151,6 +151,8 @@ Collection of Examples solved on www.leetcode.com
 - [Nim Game](https://leetcode.com/problems/nim-game/description/)
 - [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
 - [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)
+- [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+- [Is Power of Three](https://leetcode.com/problems/power-of-three/submissions/1219983297/)
 
 ## Unsolved
 
