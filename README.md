@@ -155,6 +155,7 @@ Collection of Examples solved on www.leetcode.com
 - [Is Power of Three](https://leetcode.com/problems/power-of-three/submissions/1219983297/)
 - [Power of Four](https://leetcode.com/problems/power-of-four/description/)
 - [Reverse Vowels of String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+- [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
 
 ## Unsolved
 
