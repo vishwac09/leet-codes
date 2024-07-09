@@ -9,5 +9,4 @@ composer.lock
 /nbproject/private/
 nbproject
 node_modules
-package-lock.json
 package.json
