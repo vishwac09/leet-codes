@@ -12,15 +12,15 @@ class LinkedListCycle
      * @param ListNode $head
      * @return Boolean
      */
-    function hasCycle($head) {
+    public function hasCycle($head)
+    {
         $visited = [];
         $flag = false;
         while ($head != null) {
             $id = spl_object_id($head);
             if (!isset($visited[$id])) {
                 $visited[$id] = true;
-            }
-            else {
+            } else {
                 $flag = true;
                 break;
             }
@@ -28,8 +28,9 @@ class LinkedListCycle
         }
         return $flag;
     }
-    
-    function hasCycleA1($head) {
+
+    public function hasCycleA1($head)
+    {
         $flag = false;
         while ($head->next != null) {
             if ($head->val == 'visited') {
@@ -41,18 +42,23 @@ class LinkedListCycle
         }
         return $flag;
     }
-    
-    function hasCycleA2($head) {
-        if ($head === null) return false;
-        
+
+    public function hasCycleA2($head)
+    {
+        if ($head === null) {
+            return false;
+        }
+
         $slow = $head;
         $quick = $head->next;
         while ($slow != $quick) {
-            if ($quick === null || $quick->next === null) return false;
+            if ($quick === null || $quick->next === null) {
+                return false;
+            }
             $slow = $slow->next;
             $quick = $quick->next->next;
         }
         return true;
     }
-    
+
 }

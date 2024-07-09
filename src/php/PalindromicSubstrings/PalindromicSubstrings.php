@@ -13,12 +13,13 @@ class PalindromicSubstrings
      * @param String $s
      * @return Integer
      */
-    function countSubstrings($s) {
+    public function countSubstrings($s)
+    {
         $length = strlen($s);
-        for ($i=0; $i<$length; $i++) {
+        for ($i = 0; $i < $length; $i++) {
             $low = $i;
             $high = $i;
-            while ($high<$length && $low>=0) {
+            while ($high < $length && $low >= 0) {
                 if ($s[$low] == $s[$high]) {
                     $this->count++;
                 }

@@ -14,13 +14,14 @@ class CombinationSumIII
      * @param Integer $n
      * @return Integer[][]
      */
-    function combinationSum3($k, $n) {
+    public function combinationSum3($k, $n)
+    {
         $track = [];
         $this->buildCombination(1, $track, 0, $k, $n);
         return $this->combination;
     }
-    
-    function buildCombination($begin, $track, $sum, $k, $n)
+
+    public function buildCombination($begin, $track, $sum, $k, $n)
     {
         if (count($track) > $k || $sum > $n) {
             return;

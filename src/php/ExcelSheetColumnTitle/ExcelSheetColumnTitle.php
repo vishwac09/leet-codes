@@ -12,13 +12,14 @@ class ExcelSheetColumnTitle
      * @param Integer $columnNumber
      * @return String
      */
-    function convertToTitle($columnNumber) {
+    public function convertToTitle($columnNumber)
+    {
         $range = range('A', 'Z');
         $result = '';
         while ($columnNumber > 0) {
             $columnNumber = $columnNumber - 1;
-            $result = $range[$columnNumber%26] . $result;
-            $columnNumber = floor($columnNumber/26);
+            $result = $range[$columnNumber % 26] . $result;
+            $columnNumber = floor($columnNumber / 26);
         }
         return $result;
     }

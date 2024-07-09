@@ -14,22 +14,25 @@ class GuessNumberHigherLower
      * @param  Integer  $n
      * @return Integer
      */
-    function guessNumber($n) {
+    public function guessNumber($n)
+    {
         $result = $this->guess($n);
-        $start = 0; $end = $n;
+        $start = 0;
+        $end = $n;
         while ($result != 0) {
-            $n = round(($start+$end) / 2);
+            $n = round(($start + $end) / 2);
             $result = $this->guess($n);
             if ($result == 1) {
                 $start = $n;
-            } else if ($result == -1) {
+            } elseif ($result == -1) {
                 $end = $n;
             }
         }
         return $n;
     }
 
-    function guess($n) {
+    public function guess($n)
+    {
         return $this->pick <=> $n;
     }
 }

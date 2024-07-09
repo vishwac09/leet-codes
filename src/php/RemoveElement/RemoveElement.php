@@ -13,7 +13,8 @@ class RemoveElement
      * @param Integer $val
      * @return Integer
      */
-    function removeElement(&$nums, $val) {
+    public function removeElement(&$nums, $val)
+    {
         $totalCount = 0;
         foreach ($nums as $key => $value) {
             if ($value == $val) {

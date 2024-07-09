@@ -13,11 +13,12 @@ class MaximumIceCreamBars
      * @param int $coins
      * @return int
      */
-    function maxIceCream($costs, $coins) {
+    public function maxIceCream($costs, $coins)
+    {
         sort($costs);
         $n = count($costs);
         $ice_cream = 0;
-        while ($ice_cream< $n&& $costs[$ice_cream] <= $coins) {
+        while ($ice_cream < $n && $costs[$ice_cream] <= $coins) {
             $coins -= $costs[$ice_cream];
             $ice_cream += 1;
         }

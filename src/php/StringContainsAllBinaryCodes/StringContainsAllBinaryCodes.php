@@ -13,12 +13,13 @@ class StringContainsAllBinaryCodes
      * @param Integer $k
      * @return Boolean
      */
-    function hasAllCodes($s, $k) {
+    public function hasAllCodes($s, $k)
+    {
         $need = 1 << $k;
         $got = [];
 
         for ($i = $k; $i <= strlen($s); $i++) {
-            $a = substr($s, $i-$k, $i);
+            $a = substr($s, $i - $k, $i);
             if (!in_array($a, $got)) {
                 $got[] = $a;
                 $need--;

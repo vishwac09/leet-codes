@@ -12,7 +12,8 @@ class IntersectionMultipleArrays
      * @param Integer[][] $nums
      * @return Integer[]
      */
-    function intersection($nums) {
+    public function intersection($nums)
+    {
         $result = array_unique($nums[0]);
         unset($nums[0]);
         foreach ($nums as $value) {

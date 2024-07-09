@@ -9,24 +9,26 @@ namespace LeetCode\Problems\HappyNumber;
 class HappyNumber
 {
     protected $visited = [];
-    
+
     /**
      * @param Integer $n
      * @return Boolean
      */
-    function isHappy($n) {
+    public function isHappy($n)
+    {
         while ($n != 1 && !isset($this->visited[$n])) {
             $this->visited[$n] = $n;
             $n = $this->getNum($n);
         }
         return $n == 1;
     }
-    
-    function getNum($n) {
+
+    public function getNum($n)
+    {
         $totalSum = 0;
         while ($n > 0) {
-            $totalSum += pow($n%10,2);
-            $n =  intval($n/10);
+            $totalSum += pow($n % 10, 2);
+            $n =  intval($n / 10);
         }
         return $totalSum;
     }

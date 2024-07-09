@@ -12,12 +12,12 @@ class PlusOne
      * @param Integer[] $digits
      * @return Integer[]
      */
-    function plusOne($digits)
+    public function plusOne($digits)
     {
         $length = count($digits) - 1;
         $carry = 1;
         for ($i = $length; $i >= 0; $i--) {
-            if (($digits[$i]+$carry) > 9) {
+            if (($digits[$i] + $carry) > 9) {
                 $digits[$i] = 0;
                 $carry = 1;
             } else {

@@ -12,9 +12,10 @@ class MissingNumber
      * @param Integer[] $nums
      * @return Integer
      */
-    function missingNumber($nums) {
+    public function missingNumber($nums)
+    {
         $n = count($nums);
-        $targetSum = $n * ($n+1) / 2;
+        $targetSum = $n * ($n + 1) / 2;
         $actualSum = array_sum($nums);
         return $targetSum - $actualSum;
     }

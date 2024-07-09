@@ -8,20 +8,21 @@ namespace LeetCode\Problems\FirstBadVersion;
 
 class FirstBadVersion
 {
-
     /**
      * @param int $n
      * @return bool
      */
-    function isBadVersion($n) {
-       return $n === 4 ? 1 : 0;
+    public function isBadVersion($n)
+    {
+        return $n === 4 ? 1 : 0;
     }
 
     /**
      * @param int $n
      * @return int
      */
-    function firstBadVersion($n) {
+    public function firstBadVersion($n)
+    {
         $start = 1;
         $end = $n;
         $bad = 0;

@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class RemoveElementTest extends TestCase
 {
-	public function testRemoveElementExample1()
-	{
+    public function testRemoveElementExample1()
+    {
         $rdsat = new RemoveElement();
         $n1 = [1, 1, 2];
         $this->assertEquals(1, $rdsat->removeElement($n1, 1));
@@ -22,5 +22,5 @@ final class RemoveElementTest extends TestCase
         $this->assertEquals(2, $rdsat->removeElement($n5, 3));
         $n6 = [0,1,2,2,3,0,4,2];
         $this->assertEquals(5, $rdsat->removeElement($n6, 2));
-	}
+    }
 }

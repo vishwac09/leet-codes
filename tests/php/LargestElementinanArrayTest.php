@@ -8,11 +8,12 @@ namespace LeetCode\Tests;
 
 use LeetCode\Problems\LargestElementinanArray\LargestElementinanArray;
 use PHPUnit\Framework\TestCase;
+
 final class LargestElementinanArrayTest extends TestCase
 {
-	public function testLargestElementinanArrayTestExample1()
-	{
-		$leia = new LargestElementinanArray();
-		$this->assertEquals(5, $leia->findKthLargest([3,2,1,5,6,4], 2));
-	}
+    public function testLargestElementinanArrayTestExample1()
+    {
+        $leia = new LargestElementinanArray();
+        $this->assertEquals(5, $leia->findKthLargest([3,2,1,5,6,4], 2));
+    }
 }

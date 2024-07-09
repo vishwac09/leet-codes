@@ -12,13 +12,16 @@ class TransposeMatrix
      * @param Integer[][] $matrix
      * @return Integer[][]
      */
-    function transpose($matrix) {
+    public function transpose($matrix)
+    {
         $A = $matrix;
         list($rows, $cols) = [count($A), count($A[0])];
         $transposed = array_fill(0, $cols, array_fill(0, $rows, null));
-        for ($i = 0; $i < $rows; $i++)
-            for ($j = 0; $j < $cols; $j++)
+        for ($i = 0; $i < $rows; $i++) {
+            for ($j = 0; $j < $cols; $j++) {
                 $transposed[$j][$i] = $A[$i][$j];
+            }
+        }
         return $transposed;
     }
 }

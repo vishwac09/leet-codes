@@ -14,16 +14,20 @@ class PopulatingRightPointers
      * @param Node $root
      * @return Node
      */
-    public function connect($root) {
-        if (!$root)
+    public function connect($root)
+    {
+        if (!$root) {
             return null;
+        }
         $this->parseTree([$root]);
         return $root;
     }
-    
-    public function parseTree($items) {
-        if (count($items) === 0)
+
+    public function parseTree($items)
+    {
+        if (count($items) === 0) {
             return;
+        }
         $prev = null;
         $next = [];
         foreach ($items as $item) {

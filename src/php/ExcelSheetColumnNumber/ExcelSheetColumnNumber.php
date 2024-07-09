@@ -36,21 +36,21 @@ class ExcelSheetColumnNumber
         'Y' => 25,
         'Z' => 26
     ];
-    
+
     /**
      * @param String $columnTitle
      * @return Integer
      */
-    function titleToNumber($columnTitle) {
+    public function titleToNumber($columnTitle)
+    {
         if (strlen($columnTitle) == 1) {
             return self::codes[$columnTitle];
         }
         $answer = 0;
         $columnTitleLength = strlen($columnTitle);
-        for ($i=0; $i<$columnTitleLength; $i++) {
-            $answer += self::codes[$columnTitle[$i]] * pow(26, $columnTitleLength-$i-1);
+        for ($i = 0; $i < $columnTitleLength; $i++) {
+            $answer += self::codes[$columnTitle[$i]] * pow(26, $columnTitleLength - $i - 1);
         }
         return $answer;
     }
 }
-

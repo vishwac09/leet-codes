@@ -12,12 +12,13 @@ class BestTimeBuySellStock
      * @param Integer[] $prices
      * @return Integer
      */
-    function maxProfit($prices) {
+    public function maxProfit($prices)
+    {
         $min = $prices[0];
         $minIndex = 0;
         $max = $prices[0];
         $profit = 0;
-        for ($i=1; $i < count($prices); $i++) {
+        for ($i = 1; $i < count($prices); $i++) {
             if ($min < $prices[$i]) {
                 $min = $min;
             } else {
@@ -29,19 +30,20 @@ class BestTimeBuySellStock
         }
         return $profit;
     }
-    
+
     /**
      * @param Integer[] $prices
      * @return Integer
      */
-    function maxProfitA1($prices) {
+    public function maxProfitA1($prices)
+    {
         $length = count($prices);
         $min = $prices[0];
         $profit = 0;
-        for ($i=1; $i < $length; $i++) {
+        for ($i = 1; $i < $length; $i++) {
             if ($prices[$i] < $min) {
                 $min = $prices[$i];
-            } else if ($prices[$i] - $min > $profit) {
+            } elseif ($prices[$i] - $min > $profit) {
                 $profit = $prices[$i] - $min;
             }
         }

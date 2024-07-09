@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 final class ContainsDuplicateIITest extends TestCase
 {
-	public function testContainsDuplicateIITestExample1()
+    public function testContainsDuplicateIITestExample1()
     {
         $cd = new ContainsDuplicateII();
         $this->assertEquals(true, $cd->containsNearbyDuplicate([1, 2, 3, 1], 3));

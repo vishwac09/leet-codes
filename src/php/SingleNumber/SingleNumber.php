@@ -12,7 +12,8 @@ class SingleNumber
      * @param Integer[] $nums
      * @return Integer
      */
-    function singleNumber($nums) {
+    public function singleNumber($nums)
+    {
         $max = 0;
         foreach (array_count_values($nums) as $key => $value) {
             if ($value == 1) {
@@ -22,11 +23,12 @@ class SingleNumber
         }
         return $max;
     }
-    
-    function singleNumberA1($nums) {
+
+    public function singleNumberA1($nums)
+    {
         $length = count($nums);
         $max = 0;
-        for ($i=0;$i<$length;$i++) {
+        for ($i = 0;$i < $length;$i++) {
             $max = $max ^ $nums[$i];
         }
         return $max;

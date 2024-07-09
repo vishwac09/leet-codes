@@ -12,7 +12,8 @@ class IsPowerOfThree
      * @param int $n
      * @return Boolean
      */
-    function isPowerOfThree($n) {
+    public function isPowerOfThree($n)
+    {
         if ($n <= 0) {
             return false;
         }

@@ -13,31 +13,35 @@ class PeekingIterator
     /**
      * @param ArrayIterator $arr
      */
-    function __construct(\ArrayIterator $arr) {
+    public function __construct(\ArrayIterator $arr)
+    {
         $this->arrIterator = $arr;
     }
-    
+
     /**
      * @return Integer
      */
-    function next() {
+    public function next()
+    {
         $current = $this->arrIterator->current();
         $this->arrIterator->next();
         return $current;
     }
-    
+
     /**
      * @return Integer
      */
-    function peek() {
+    public function peek()
+    {
         $key = $this->arrIterator->key();
         return $this->arrIterator->offsetGet($key);
     }
-    
+
     /**
      * @return Boolean
      */
-    function hasNext() {
+    public function hasNext()
+    {
         return $this->arrIterator->valid();
     }
 }

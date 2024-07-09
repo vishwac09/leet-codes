@@ -12,7 +12,8 @@ class FizzBuzz
      * @param int $n
      * @return String[]
      */
-    function fizzBuzz($n) {
+    public function fizzBuzz($n)
+    {
         $op = [];
         $both = false;
         for ($i = 1; $i <= $n; $i++) {

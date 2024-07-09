@@ -13,39 +13,44 @@ class ImplementStackusingQueues
 
     /**
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->stack = [];
         $this->count = -1;
     }
-    
+
     /**
      * @param Integer $x
      * @return NULL
      */
-    function push($x) {
+    public function push($x)
+    {
         $this->count++;
         $this->stack[] = $x;
     }
-    
+
     /**
      * @return Integer
      */
-    function pop() {
+    public function pop()
+    {
         $this->count--;
         return array_pop($this->stack);
     }
-    
+
     /**
      * @return Integer
      */
-    function top() {
+    public function top()
+    {
         return $this->stack[$this->count];
     }
-    
+
     /**
      * @return Boolean
      */
-    function empty() {
+    public function empty()
+    {
         return $this->count < 0;
     }
 }

@@ -13,21 +13,23 @@ class SummaryRanges
      * @param Integer[] $nums
      * @return String[]
      */
-    function summaryRanges($nums) {
-        if (count($nums) == 1)
+    public function summaryRanges($nums)
+    {
+        if (count($nums) == 1) {
             return [strval($nums[0])];
+        }
         $ranges = [];
         $start = $nums[0];
         foreach ($nums as $key => $value) {
-            if  (array_key_exists($key+1, $nums)) {
-                if (($value + 1) === $nums[$key+1]) {
+            if  (array_key_exists($key + 1, $nums)) {
+                if (($value + 1) === $nums[$key + 1]) {
                     continue;
                 } else {
                     $ranges[] = $start != $value ? $start . '->' . $value : strval($start);
-                    $start = $nums[$key+1];
+                    $start = $nums[$key + 1];
                 }
             } else {
-                if ($nums[$key-1] == ($value - 1)) {
+                if ($nums[$key - 1] == ($value - 1)) {
                     $ranges[] = $start . '->' . $value;
                 } else {
                     $ranges[] = strval($value);

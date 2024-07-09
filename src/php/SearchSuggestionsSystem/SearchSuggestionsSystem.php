@@ -13,12 +13,13 @@ class SearchSuggestionsSystem
      * @param String $searchWord
      * @return String[][]
      */
-    function suggestedProducts($products, $searchWord) {
+    public function suggestedProducts($products, $searchWord)
+    {
         $length = strlen($searchWord);
         sort($products, SORT_STRING);
         $needle = '';
         $ret = [];
-        for ($i=0;$i<$length;$i++) {
+        for ($i = 0;$i < $length;$i++) {
             $needle .= $searchWord[$i];
             $searched = [];
             $count = 0;

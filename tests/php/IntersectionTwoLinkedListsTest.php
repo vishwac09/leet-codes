@@ -10,8 +10,8 @@ use PHPUnit\Framework\TestCase;
 
 final class IntersectionTwoLinkedListsTest extends TestCase
 {
-	public function testIntersectionTwoLinkedListsTestExample1()
-	{
+    public function testIntersectionTwoLinkedListsTestExample1()
+    {
         $a = new ListNode(1);
         $b = new ListNode(2);
         $a->next = $b;
@@ -21,5 +21,5 @@ final class IntersectionTwoLinkedListsTest extends TestCase
         $d->next = $b;
         $itl = new IntersectionTwoLinkedLists();
         $this->assertEquals(new ListNode(2, $c), $itl->getIntersectionNode($a, $d));
-	}
+    }
 }

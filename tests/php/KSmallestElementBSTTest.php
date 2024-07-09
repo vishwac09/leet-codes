@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class KSmallestElementBSTTest extends TestCase
 {
-	public function testKSmallestElementBSTTestExample1()
-	{
+    public function testKSmallestElementBSTTestExample1()
+    {
         $kseb = new KSmallestElementBST();
         $a = new TreeNode(3);
         $b = new TreeNode(1);
@@ -18,6 +18,6 @@ final class KSmallestElementBSTTest extends TestCase
         $a->left = $b;
         $a->right = $c;
         $b->right = $d;
-        $this->assertEquals(1, $kseb->kthSmallest($a,1));
-	}
+        $this->assertEquals(1, $kseb->kthSmallest($a, 1));
+    }
 }

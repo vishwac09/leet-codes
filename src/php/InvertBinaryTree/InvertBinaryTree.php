@@ -14,20 +14,26 @@ class InvertBinaryTree
      * @param TreeNode $root
      * @return TreeNode
      */
-    function invertTree($root) {
-        if (!$root)
+    public function invertTree($root)
+    {
+        if (!$root) {
             return null;
+        }
         return $this->cloneTreeInvert($root);
     }
-    
-    function cloneTreeInvert($root) {
-        if (!$root)
+
+    public function cloneTreeInvert($root)
+    {
+        if (!$root) {
             return null;
+        }
         $base = new TreeNode($root->val);
-        if (isset($root->left))
+        if (isset($root->left)) {
             $base->right = $this->cloneTreeInvert($root->left);
-        if (isset($root->right))
+        }
+        if (isset($root->right)) {
             $base->left = $this->cloneTreeInvert($root->right);
+        }
         return $base;
     }
 }

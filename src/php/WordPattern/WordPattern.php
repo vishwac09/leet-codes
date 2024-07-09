@@ -13,14 +13,20 @@ class WordPattern
      * @param String $s
      * @return Boolean
      */
-    function wordPattern($pattern, $s) {
-        if (empty($pattern)) return false;
+    public function wordPattern($pattern, $s)
+    {
+        if (empty($pattern)) {
+            return false;
+        }
         $parts = explode(' ', $s);
         $p_len = strlen($pattern);
-        if ($p_len !== count($parts)) return false;
-        $map = []; $r_map = [];
+        if ($p_len !== count($parts)) {
+            return false;
+        }
+        $map = [];
+        $r_map = [];
         $flag = false;
-        for($i=0; $i<$p_len;$i++) {
+        for($i = 0; $i < $p_len;$i++) {
             if (!isset($map[$pattern[$i]])) {
                 $map[$pattern[$i]] = $parts[$i];
             }

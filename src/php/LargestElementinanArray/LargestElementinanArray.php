@@ -13,9 +13,10 @@ class LargestElementinanArray
      * @param Integer $k
      * @return Integer
      */
-    function findKthLargest($nums, $k) {
+    public function findKthLargest($nums, $k)
+    {
         sort($nums);
         $c = count($nums);
-        return $nums[$c-$k];
+        return $nums[$c - $k];
     }
 }

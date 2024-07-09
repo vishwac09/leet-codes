@@ -12,14 +12,16 @@ class BinaryTreePostorderTraversal
      * @param TreeNode $root
      * @return Integer[]
      */
-    function postorderTraversal($root) {
+    public function postorderTraversal($root)
+    {
         if (!$root) {
             return [];
         }
         return $this->parseTree($root);
     }
-    
-    function parseTree($node = null) {
+
+    public function parseTree($node = null)
+    {
         $ret = [];
         // Get the Left childs
         if (isset($node->left)) {

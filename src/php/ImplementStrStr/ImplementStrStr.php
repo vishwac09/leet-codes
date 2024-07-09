@@ -13,7 +13,8 @@ class ImplementStrStr
      * @param String $needle
      * @return Integer
      */
-    function strStr($haystack, $needle) {
+    public function strStr($haystack, $needle)
+    {
         if (empty($needle)) {
             return 0;
         }

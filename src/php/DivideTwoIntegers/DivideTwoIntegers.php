@@ -13,7 +13,8 @@ class DivideTwoIntegers
      * @param Integer $divisor
      * @return Integer
      */
-    function divide($dividend, $divisor) {
+    public function divide($dividend, $divisor)
+    {
         $isDividendNegate = $dividend < 0;
         $isDivisorNegate = $divisor < 0;
         $remainder = abs($dividend);
@@ -27,7 +28,7 @@ class DivideTwoIntegers
         }
         if ($isDividendNegate && $isDivisorNegate) {
             $count *= 1;
-        } else if ($isDividendNegate || $isDivisorNegate) {
+        } elseif ($isDividendNegate || $isDivisorNegate) {
             $count *= -1;
         }
         return ($count);

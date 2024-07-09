@@ -12,7 +12,8 @@ class DeleteNodeLinkedList
      * @param ListNode $node
      * @return
      */
-    function deleteNode($node) {
+    public function deleteNode($node)
+    {
         $node->val = $node->next->val;
         $node->next = $node->next->next;
     }

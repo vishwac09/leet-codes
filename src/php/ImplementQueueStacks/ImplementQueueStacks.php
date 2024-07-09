@@ -11,36 +11,41 @@ class ImplementQueueStacks
     protected $queue;
     /**
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->queue = [];
     }
-    
+
     /**
      * @param Integer $x
      * @return NULL
      */
-    function push($x) {
+    public function push($x)
+    {
         $this->queue[] = $x;
     }
-    
+
     /**
      * @return Integer
      */
-    function pop() {
+    public function pop()
+    {
         return array_shift($this->queue);
     }
-    
+
     /**
      * @return Integer
      */
-    function peek() {
+    public function peek()
+    {
         return $this->queue[0];
     }
-    
+
     /**
      * @return Boolean
      */
-    function empty() {
+    public function empty()
+    {
         return empty($this->queue);
     }
 }

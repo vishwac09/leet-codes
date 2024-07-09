@@ -13,9 +13,10 @@ class ContainsDuplicateII
      * @param Integer $k
      * @return Boolean
      */
-    function containsNearbyDuplicate($nums, $k) {
+    public function containsNearbyDuplicate($nums, $k)
+    {
         $visited = [];
-        foreach( $nums as $i => $n ) {
+        foreach($nums as $i => $n) {
             if (isset($visited[$n])) {
                 if (abs($i - $visited[$n]) <= $k) {
                     return true;

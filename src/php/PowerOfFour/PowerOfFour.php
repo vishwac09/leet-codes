@@ -12,7 +12,7 @@ class PowerOfFour
      * @param int $n
      * @return Boolean
      */
-    function isPowerOfFour($n)
+    public function isPowerOfFour($n)
     {
         if ($n <= 0) {
             return false;

@@ -12,9 +12,12 @@ class NimGame
      * @param int $n
      * @return bool
      */
-    function canWinNim($n) {
+    public function canWinNim($n)
+    {
         $n = $n % 4;
-        if ($n==0) return false;
+        if ($n == 0) {
+            return false;
+        }
         return true;
     }
 }

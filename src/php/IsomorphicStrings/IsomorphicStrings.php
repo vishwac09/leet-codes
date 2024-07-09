@@ -13,16 +13,18 @@ class IsomorphicStrings
      * @param String $t
      * @return Boolean
      */
-    function isIsomorphic($s, $t) {
+    public function isIsomorphic($s, $t)
+    {
         $sLen = strlen($s);
         $tLen = strlen($t);
-        if ($sLen != $tLen)
+        if ($sLen != $tLen) {
             return false;
+        }
         $sCharCount = array_count_values(str_split($s));
         $tCharCount = array_count_values(str_split($t));
         $tMap = $sMap = [];
         $sVMap = $tVMap = [];
-        for ($i=0; $i<$sLen; $i++) {
+        for ($i = 0; $i < $sLen; $i++) {
             $random = rand(1, 2600);
             if ($sCharCount[$s[$i]] > 1) {
                 $sMap[] = $sVMap[$s[$i]] ?? $random;
@@ -32,7 +34,7 @@ class IsomorphicStrings
             } else {
                 $sMap[] = 0;
             }
-            
+
             if ($tCharCount[$t[$i]] > 1) {
                 $tMap[] = $tVMap[$t[$i]] ?? $random;
                 if (!isset($tVMap[$t[$i]])) {

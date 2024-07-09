@@ -12,14 +12,15 @@ class LongestCommonPrefix
      * @param String[] $strs
      * @return String
      */
-    function longestCommonPrefix($strs) {
+    public function longestCommonPrefix($strs)
+    {
         if (count($strs) === 1) {
             return $strs[0];
         }
         $prefix = '';
         $result = '';
         $isPrefixCommon = false;
-        for ($i=0; $i<strlen($strs[0]); $i++) {
+        for ($i = 0; $i < strlen($strs[0]); $i++) {
             $prefix .= $strs[0][$i];
             foreach ($strs as $value) {
                 if (strpos($value, $prefix) === 0) {

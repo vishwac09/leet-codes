@@ -9,35 +9,39 @@ namespace LeetCode\Problems\DesignHashMap;
 class DesignHashMap
 {
     protected $stack;
-    
+
     /**
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->stack = [];
     }
-    
+
     /**
      * @param Integer $key
      * @param Integer $value
      * @return NULL
      */
-    function put($key, $value) {
+    public function put($key, $value)
+    {
         $this->stack[$key] = $value;
     }
-    
+
     /**
      * @param Integer $key
      * @return Integer
      */
-    function get($key) {
+    public function get($key)
+    {
         return $this->stack[$key] ?? -1;
     }
-    
+
     /**
      * @param Integer $key
      * @return NULL
      */
-    function remove($key) {
+    public function remove($key)
+    {
         unset($this->stack[$key]);
     }
 }

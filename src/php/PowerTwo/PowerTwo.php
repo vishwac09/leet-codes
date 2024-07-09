@@ -12,9 +12,11 @@ class PowerTwo
      * @param Integer $n
      * @return Boolean
      */
-    function isPowerOfTwo($n) {
-        if ($n == 1 || $n == 2)
+    public function isPowerOfTwo($n)
+    {
+        if ($n == 1 || $n == 2) {
             return true;
+        }
         while ($n > 2) {
             $n = $n / 2;
         }

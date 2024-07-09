@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class RemoveLinkedListElementsTest extends TestCase
 {
-	public function testRemoveLinkedListElementsTestExample1()
-	{
+    public function testRemoveLinkedListElementsTestExample1()
+    {
         $a = new ListNode(1);
         $b = new ListNode(2);
         $c = new ListNode(6);
@@ -35,5 +35,5 @@ final class RemoveLinkedListElementsTest extends TestCase
         $r->next = $s;
         $res = $rlle->removeElements($p, 7);
         $this->assertEquals(null, $res);
-	}
+    }
 }

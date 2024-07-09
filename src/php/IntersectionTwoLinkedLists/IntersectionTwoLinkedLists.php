@@ -13,16 +13,19 @@ class IntersectionTwoLinkedLists
      * @param ListNode $headB
      * @return ListNode
      */
-    function getIntersectionNode($headA, $headB) {
-        if (!$headA->val || !$headB->val) return null;
-        
+    public function getIntersectionNode($headA, $headB)
+    {
+        if (!$headA->val || !$headB->val) {
+            return null;
+        }
+
         $aMapping = [];
-        
+
         while ($headA != null) {
             $aMapping[] = spl_object_id($headA);
             $headA = $headA->next;
         }
-        
+
         while ($headB != null) {
             if (in_array(spl_object_id($headB), $aMapping)) {
                 break;
@@ -30,6 +33,6 @@ class IntersectionTwoLinkedLists
             $headB = $headB->next;
         }
         return $headB;
-        
+
     }
 }

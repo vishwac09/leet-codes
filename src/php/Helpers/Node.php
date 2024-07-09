@@ -2,12 +2,14 @@
 
 namespace LeetCode\Problems\Helpers;
 
-class Node {
+class Node
+{
     public $val = null;
     public $left = null;
     public $right = null;
     public $next = null;
-    function __construct($val = 0) {
+    public function __construct($val = 0)
+    {
         $this->val = $val;
         $this->left = null;
         $this->right = null;

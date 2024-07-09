@@ -14,21 +14,25 @@ class BinaryTreePaths
      * @param TreeNode $root
      * @return String[]
      */
-    function binaryTreePaths($root) {
+    public function binaryTreePaths($root)
+    {
         $this->parseTree($root, '');
         return $this->path;
     }
-    
-    function parseTree($root, $path) {
+
+    public function parseTree($root, $path)
+    {
         if (is_null($root->left) && is_null($root->right)) {
             $path .= $root->val;
             $this->path[$this->count++] = $path;
             return;
         }
         $path .= $root->val . '->';
-        if (isset($root->left))
+        if (isset($root->left)) {
             $this->parseTree($root->left, $path);
-        if (isset($root->right))
+        }
+        if (isset($root->right)) {
             $this->parseTree($root->right, $path);
+        }
     }
 }

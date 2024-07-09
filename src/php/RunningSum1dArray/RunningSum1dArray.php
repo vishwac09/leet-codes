@@ -12,12 +12,13 @@ class RunningSum1dArray
      * @param Integer[] $nums
      * @return Integer[]
      */
-    function runningSum($nums) {
+    public function runningSum($nums)
+    {
         $count = count($nums) - 1;
         $sum = array_sum($nums);
         $result = [];
         $negate = 0;
-        for ($i=$count;$i>=0;$i--) {
+        for ($i = $count;$i >= 0;$i--) {
             $result[$i] = $sum - $negate;
             $negate = ($negate + $nums[$i]);
         }

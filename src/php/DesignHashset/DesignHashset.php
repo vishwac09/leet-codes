@@ -12,35 +12,39 @@ class DesignHashset
 
     /**
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->hashSet = [];
     }
-    
+
     /**
      * @param Integer $key
      * @return NULL
      */
-    function add($key) {
+    public function add($key)
+    {
         $this->hashSet[$key] = $key;
     }
-    
+
     /**
      * @param Integer $key
      * @return NULL
      */
-    function remove($key) {
+    public function remove($key)
+    {
         if (array_key_exists($key, $this->hashSet)) {
             unset($this->hashSet[$key]);
-            return TRUE;
+            return true;
         }
-        return FALSE;
+        return false;
     }
-    
+
     /**
      * @param Integer $key
      * @return Boolean
      */
-    function contains($key) {
+    public function contains($key)
+    {
         return isset($this->hashSet[$key]);
     }
 }

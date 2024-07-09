@@ -13,7 +13,7 @@ class KidsWithGreatestNumberCandies
      * @param int $extraCandies
      * @return array<bool>
      */
-    function kidsWithCandies(array $candies, $extraCandies)
+    public function kidsWithCandies(array $candies, $extraCandies)
     {
         $big = max($candies);
         $result = [];

@@ -13,22 +13,27 @@ class SumLeftLeaves
      * @param TreeNode $root
      * @return Integer
      */
-    function sumOfLeftLeaves($root) {
-        if (!$root)
+    public function sumOfLeftLeaves($root)
+    {
+        if (!$root) {
             return 0;
+        }
         $this->parseTree($root, false);
         return $this->sum;
     }
-    
-    function parseTree($root, $flag = false) {
+
+    public function parseTree($root, $flag = false)
+    {
         if (!is_null($root)) {
             if ($flag && !$root->left && !$root->right) {
                 $this->sum += $root->val;
             }
         }
-        if (isset($root->left))
+        if (isset($root->left)) {
             $this->parseTree($root->left, true);
-        if (isset($root->right))
+        }
+        if (isset($root->right)) {
             $this->parseTree($root->right, false);
+        }
     }
 }

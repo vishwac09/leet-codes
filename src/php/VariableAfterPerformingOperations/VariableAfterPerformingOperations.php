@@ -12,7 +12,8 @@ class VariableAfterPerformingOperations
      * @param String[] $operations
      * @return Integer
      */
-    function finalValueAfterOperations($operations) {
+    public function finalValueAfterOperations($operations)
+    {
         return 1;
     }
 }

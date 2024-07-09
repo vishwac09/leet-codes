@@ -13,14 +13,15 @@ class TwoSumII
      * @param Integer $target
      * @return Integer[]
      */
-    function twoSum($numbers, $target) {
+    public function twoSum($numbers, $target)
+    {
         $h = [];
-        foreach( $numbers as $key=>$value){
+        foreach($numbers as $key => $value) {
             $tmp = $target - $value;
-            if(array_key_exists($tmp,$h)){
+            if(array_key_exists($tmp, $h)) {
                 $old_key = $h[$tmp];
-                return [$old_key+1,$key+1];
-            }else{
+                return [$old_key + 1,$key + 1];
+            } else {
                 $h[$value] = $key;
             }
         }

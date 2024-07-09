@@ -13,9 +13,10 @@ class RansomNote
      * @param String $magazine
      * @return Boolean
      */
-    function canConstruct($ransomNote, $magazine) {
+    public function canConstruct($ransomNote, $magazine)
+    {
         $stat = false;
-        for($i=0; $i<strlen($ransomNote); $i++){
+        for($i = 0; $i < strlen($ransomNote); $i++) {
             $index = strpos($magazine, $ransomNote[$i]);
             if ($index !== false) {
                 $stat = true;

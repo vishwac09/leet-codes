@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class BinaryTreePathsTest extends TestCase
 {
-	public function testBinaryTreePathsTestExample1()
-	{
+    public function testBinaryTreePathsTestExample1()
+    {
         $btp = new BinaryTreePaths();
         $a = new TreeNode(1);
         $b = new TreeNode(2);
@@ -20,5 +20,5 @@ final class BinaryTreePathsTest extends TestCase
         $b->right = $d;
         $g = $btp->binaryTreePaths($a);
         $this->assertEquals(['1->2->5', '1->3'], $g);
-	}
+    }
 }

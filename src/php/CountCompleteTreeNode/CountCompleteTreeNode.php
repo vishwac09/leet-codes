@@ -14,7 +14,8 @@ class CountCompleteTreeNode
      * @param TreeNode $root
      * @return Integer
      */
-    function countNodes(TreeNode $root) {
+    public function countNodes(TreeNode $root)
+    {
         if ($root === null) {
             return 0;
         }
@@ -24,7 +25,8 @@ class CountCompleteTreeNode
     /**
      * @param TreeNode $tree
      */
-    function parseTree(TreeNode $tree = null, $count = 0) {
+    public function parseTree(TreeNode $tree = null, $count = 0)
+    {
         $lc = 0;
         if (isset($tree->left)) {
             $lc += $this->parseTree($tree->left);

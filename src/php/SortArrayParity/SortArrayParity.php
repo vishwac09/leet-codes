@@ -12,7 +12,8 @@ class SortArrayParity
      * @param Integer[] $nums
      * @return Integer[]
      */
-    function sortArrayByParity($nums) {
+    public function sortArrayByParity($nums)
+    {
         $parityEven = [];
         $parityOdd = [];
         foreach ($nums as $key => $value) {

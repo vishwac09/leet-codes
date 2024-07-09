@@ -12,15 +12,22 @@ class SymmetricTree
      * @param TreeNode $root
      * @return Boolean
      */
-    function isSymmetric($root) {
-        if (is_null($root))
+    public function isSymmetric($root)
+    {
+        if (is_null($root)) {
             return false;
+        }
         return $this->parseTree($root->left, $root->right);
     }
-    
-    function parseTree($a, $b) {
-        if (is_null($a) && is_null($b)) return true;
-        if (is_null($a) || is_null($b)) return false;
+
+    public function parseTree($a, $b)
+    {
+        if (is_null($a) && is_null($b)) {
+            return true;
+        }
+        if (is_null($a) || is_null($b)) {
+            return false;
+        }
         return ($a->val == $b->val) && $this->parseTree($a->left, $b->right)
             && $this->parseTree($a->right, $b->left);
     }

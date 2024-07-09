@@ -12,9 +12,10 @@ class CountingBits
      * @param Integer $n
      * @return Integer[]
      */
-    function countBits($n) {
+    public function countBits($n)
+    {
         $res = [];
-        for ($i=0;$i<=$n;$i++){
+        for ($i = 0;$i <= $n;$i++) {
             $res[] = substr_count(decbin($i), 1);
         }
         return $res;

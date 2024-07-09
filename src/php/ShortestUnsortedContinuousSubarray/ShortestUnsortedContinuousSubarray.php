@@ -12,17 +12,18 @@ class ShortestUnsortedContinuousSubarray
      * @param Integer[] $nums
      * @return Integer
      */
-    function findUnsortedSubarray($nums) {
+    public function findUnsortedSubarray($nums)
+    {
         $sortedNums = $nums;
         sort($sortedNums);
         $start = PHP_INT_MAX;
         $end = PHP_INT_MIN;
-        for ($i=0; $i<count($nums); $i++) {
+        for ($i = 0; $i < count($nums); $i++) {
             if ($sortedNums[$i] != $nums[$i]) {
                 $start = min($i, $start);
                 $end = max($i, $end);
             }
         }
-        return $end - $start >=0 ? $end - $start + 1 : 0;
+        return $end - $start >= 0 ? $end - $start + 1 : 0;
     }
 }

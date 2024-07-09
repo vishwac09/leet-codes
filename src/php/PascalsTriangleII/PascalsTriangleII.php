@@ -12,16 +12,16 @@ class PascalsTriangleII
      * @param Integer $rowIndex
      * @return Integer[]
      */
-    function getRow($rowIndex) {
+    public function getRow($rowIndex)
+    {
         $pascal[] = [];
         $numRows = $rowIndex + 1;
-        for ($i=0; $i<$numRows; $i++) {
-            for ($j=0; $j<=$i; $j++) {
+        for ($i = 0; $i < $numRows; $i++) {
+            for ($j = 0; $j <= $i; $j++) {
                 if ($j === 0 || $j === $i) {
                     $pascal[$i][] = 1;
-                }
-                else {
-                    $pascal[$i][] = $pascal[$i-1][$j - 1] + $pascal[$i-1][$j];
+                } else {
+                    $pascal[$i][] = $pascal[$i - 1][$j - 1] + $pascal[$i - 1][$j];
                 }
             }
         }

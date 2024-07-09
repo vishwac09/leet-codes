@@ -12,9 +12,9 @@ class LengthofLastWord
      * @param String $s
      * @return Integer
      */
-    function lengthOfLastWord($s)
+    public function lengthOfLastWord($s)
     {
         $s = explode(" ", trim($s));
-        return strlen($s[count($s)-1]);
+        return strlen($s[count($s) - 1]);
     }
 }

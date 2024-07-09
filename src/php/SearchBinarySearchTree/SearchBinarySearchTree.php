@@ -15,7 +15,8 @@ class SearchBinarySearchTree
      * @param Integer $val
      * @return TreeNode
      */
-    function searchBST($root, $val) {
+    public function searchBST($root, $val)
+    {
         if ($root == null) {
             return $root;
         }
@@ -34,8 +35,8 @@ class SearchBinarySearchTree
         if ($root->val == $val) {
             return $root;
         } else {
-            return NULL;
+            return null;
         }
-        
+
     }
 }

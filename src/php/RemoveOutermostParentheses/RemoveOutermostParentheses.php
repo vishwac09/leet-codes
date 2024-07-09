@@ -12,19 +12,20 @@ class RemoveOutermostParentheses
      * @param String $s
      * @return String
      */
-    function removeOuterParentheses($s) {
+    public function removeOuterParentheses($s)
+    {
         $length = strlen($s);
         $depth = 1;
         $outerParenthesis = '';
         $start = 0;
-        for ($i=1; $i<$length; $i++) {
+        for ($i = 1; $i < $length; $i++) {
             if ($s[$i] === '(') {
                 $depth++;
-            } else if ($s[$i] === ')') {
+            } elseif ($s[$i] === ')') {
                 $depth--;
             }
             if ($depth == 0) {
-                $outerParenthesis .= substr($s, $start+1, $i - $start -1);
+                $outerParenthesis .= substr($s, $start + 1, $i - $start - 1);
                 $start = $i + 1;
             }
         }

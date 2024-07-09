@@ -13,9 +13,10 @@ class FindDifference
      * @param String $t
      * @return String
      */
-    function findTheDifference($s, $t) {
+    public function findTheDifference($s, $t)
+    {
         $a = str_split($t);
-        for($i = 0; $i < strlen($s); $i++){
+        for($i = 0; $i < strlen($s); $i++) {
             $key = array_search($s[$i], $a);
             unset($a[$key]);
         }

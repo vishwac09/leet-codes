@@ -12,11 +12,12 @@ class RemoveDuplicatesSortedArray
      * @param Integer[] $nums
      * @return Integer
      */
-    function removeDuplicates(&$nums) {
+    public function removeDuplicates(&$nums)
+    {
         $totalCount = 0;
         $count = count($nums);
         foreach ($nums as $key => $value) {
-            if ($key != ($count-1) && $value == $nums[$key + 1]) {
+            if ($key != ($count - 1) && $value == $nums[$key + 1]) {
                 $nums[] = $nums[$key + 1];
                 unset($nums[$key + 1]);
             } else {

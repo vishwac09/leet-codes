@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class TrimBinarySearchTreeTest extends TestCase
 {
-	public function testTrimBinarySearchTreeTestExample1()
-	{
+    public function testTrimBinarySearchTreeTestExample1()
+    {
         $tbst = new TrimBinarySearchTree();
         $a = new TreeNode(0);
         $b = new TreeNode(2);
@@ -37,5 +37,5 @@ final class TrimBinarySearchTreeTest extends TestCase
         $x->left = $y;
         $res = $tbst->trimBST($x, 10, null);
         $this->assertEquals(11, $res->val);
-	}
+    }
 }

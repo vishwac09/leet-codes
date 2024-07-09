@@ -12,16 +12,17 @@ class ClimbingStairs
      * @param Integer $n
      * @return Integer
      */
-    function climbStairs($n)
+    public function climbStairs($n)
     {
-        if ($n == 1)
+        if ($n == 1) {
             return 1;
-        else if ($n == 2)
+        } elseif ($n == 2) {
             return 2;
-        
+        }
+
         $ways = [1,1,2];
-        for($i=3; $i<= $n; $i++) {
-            $ways[$i] = $ways[$i-1] + $ways[$i-2];
+        for($i = 3; $i <= $n; $i++) {
+            $ways[$i] = $ways[$i - 1] + $ways[$i - 2];
         }
         return $ways[$n];
     }

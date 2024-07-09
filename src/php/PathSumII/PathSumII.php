@@ -15,12 +15,14 @@ class PathSumII
      * @param Integer $targetSum
      * @return Integer[][]
      */
-    function pathSum($root, $targetSum) {
+    public function pathSum($root, $targetSum)
+    {
         $this->parsePath($root, $targetSum, 0, []);
         return $this->result;
     }
 
-    function parsePath($root, $target, $sum, $path) {
+    public function parsePath($root, $target, $sum, $path)
+    {
         if (is_null($root)) {
             return [];
         }
@@ -30,9 +32,9 @@ class PathSumII
         $this->parsePath($root->right, $target, $sum, $path);
         if ($sum == $target && $root->left == null && $root->right == null) {
             $this->result[] = $path;
-            return TRUE;
+            return true;
         } else {
-            return FALSE;
+            return false;
         }
     }
 }

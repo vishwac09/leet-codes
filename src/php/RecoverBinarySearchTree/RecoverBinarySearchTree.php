@@ -17,16 +17,19 @@ class RecoverBinarySearchTree
      * @param TreeNode $root
      * @return NULL
      */
-    function recoverTree($root) {
+    public function recoverTree($root)
+    {
         $this->parseInorder($root);
         sort($this->result);
         $this->checkSwap($root);
         return $root;
     }
-    
-    function checkSwap($root) {
-        if ($root == null)
+
+    public function checkSwap($root)
+    {
+        if ($root == null) {
             return;
+        }
         $this->checkSwap($root->left);
         if ($this->result[$this->count] != $root->val) {
             $root->val = $this->result[$this->count];
@@ -34,10 +37,12 @@ class RecoverBinarySearchTree
         $this->count++;
         $this->checkSwap($root->right);
     }
-    
-    function parseInorder($root) {
-        if ($root == null)
+
+    public function parseInorder($root)
+    {
+        if ($root == null) {
             return;
+        }
         $this->parseInorder($root->left);
         $this->result[] = $root->val;
         $this->parseInorder($root->right);

@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class MinStackTest extends TestCase
 {
-	public function testMinStackExample1()
-	{
+    public function testMinStackExample1()
+    {
         $ms = new MinStack();
         $this->assertNull($ms->push(-2));
         $this->assertNull($ms->push(0));
@@ -17,5 +17,5 @@ final class MinStackTest extends TestCase
         $this->assertNull($ms->pop());
         $this->assertEquals(0, $ms->top());
         $this->assertEquals(-2, $ms->getMin());
-	}
+    }
 }

@@ -2,7 +2,7 @@
 
 namespace LeetCode\Tests;
 
-use \PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 use LeetCode\Problems\LongestPalindromicSubstring\LongestPalindromicSubstring;
 
 final class LongestPalindromicSubstringTest extends TestCase

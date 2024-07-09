@@ -15,7 +15,8 @@ class EncodeDecodeTinyURL
      * @param String $longUrl
      * @return String
      */
-    function encode($longUrl) {
+    public function encode($longUrl)
+    {
         $hash = hash("sha512", $longUrl, false);
         $hash = substr($hash, 0, 10);
         $this->map[$hash] = $longUrl;
@@ -27,7 +28,8 @@ class EncodeDecodeTinyURL
      * @param String $shortUrl
      * @return String
      */
-    function decode($shortUrl) {
+    public function decode($shortUrl)
+    {
         return $this->map[$shortUrl];
     }
 }

@@ -12,11 +12,12 @@ class Pattern132
      * @param Integer[] $nums
      * @return Boolean
      */
-    function find132pattern($nums) {
+    public function find132pattern($nums)
+    {
         $length = count($nums);
-        for ($i=0; $i<$length; $i++) {
-            for ($j=$i+1; $j<$length; $j++) {
-                for ($k = $j+1; $k<$length; $k++) {
+        for ($i = 0; $i < $length; $i++) {
+            for ($j = $i + 1; $j < $length; $j++) {
+                for ($k = $j + 1; $k < $length; $k++) {
                     if ($nums[$k] > $nums[$i] && $nums[$j] > $nums[$k]) {
                         return true;
                     }
@@ -25,16 +26,17 @@ class Pattern132
         }
         return false;
     }
-    
+
     /**
      * @param Integer[] $nums
      * @return Boolean
      */
-    function find132patternOpt($nums) {
+    public function find132patternOpt($nums)
+    {
         $length = count($nums);
         $min = $nums[0];
-        for ($i=1; $i<$length; $i++) {
-            for ($j=$i+1; $j<$length; $j++) {
+        for ($i = 1; $i < $length; $i++) {
+            for ($j = $i + 1; $j < $length; $j++) {
                 if ($nums[$i] > $nums[$j] && $nums[$j] > $min) {
                     return true;
                 }
@@ -43,18 +45,23 @@ class Pattern132
         }
         return false;
     }
-    
+
     /**
      * @param Integer[] $nums
      * @return Boolean
      */
-    function find132patternOptt($nums) {
+    public function find132patternOptt($nums)
+    {
         $length = count($nums);
         $st = new \SplStack();
         $mid = PHP_INT_MIN;
-        for ($i=$length-1; $i>=0; $i--) {
-            if ($nums[$i] < $mid) return true;
-            while(!$st->isEmpty() && $st->top() < $nums[$i]) $mid = $st->pop();
+        for ($i = $length - 1; $i >= 0; $i--) {
+            if ($nums[$i] < $mid) {
+                return true;
+            }
+            while(!$st->isEmpty() && $st->top() < $nums[$i]) {
+                $mid = $st->pop();
+            }
             $st->push($nums[$i]);
         }
         return false;

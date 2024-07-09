@@ -12,9 +12,10 @@ class ValidParentheses
      * @param String $s
      * @return Boolean
      */
-    function isValid($s) {
+    public function isValid($s)
+    {
         $length = strlen($s);
-        if ($length%2 !== 0) {
+        if ($length % 2 !== 0) {
             return false;
         }
         $parentheses = [
@@ -33,7 +34,7 @@ class ValidParentheses
                 }
             }
         }
-    
+
         return empty($stack);
     }
 }

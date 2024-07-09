@@ -22,7 +22,7 @@ class ThreeSum
                 if (($value + $nums[$left] + $nums[$right]) === 0) {
                     $result[] = [$value, $nums[$left], $nums[$right]];
                 }
-                $left ++;
+                $left++;
                 $right++;
             }
         }

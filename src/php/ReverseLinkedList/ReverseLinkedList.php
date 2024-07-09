@@ -14,9 +14,11 @@ class ReverseLinkedList
      * @param ListNode $head
      * @return ListNode
      */
-    function reverseList($head) {
-        if (!$head)
+    public function reverseList($head)
+    {
+        if (!$head) {
             return null;
+        }
         $elem = [];
         while ($head != null) {
             $elem[] = $head->val;
@@ -25,17 +27,17 @@ class ReverseLinkedList
         $elem = array_reverse($elem);
         return $this->createListNode($elem);
     }
-    
+
     /**
      * Creates  ListNode from given array.
      * @param array
      * @param int
      * @return ListNode
      */
-    function createListNode($list, $index=0)
+    public function createListNode($list, $index = 0)
     {
         if (isset($list[$index])) {
-            $node = $this->createListNode($list, $index+1);
+            $node = $this->createListNode($list, $index + 1);
             return new ListNode($list[$index], $node);
         }
         return null;

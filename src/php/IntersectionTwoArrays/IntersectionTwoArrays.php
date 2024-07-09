@@ -13,7 +13,8 @@ class IntersectionTwoArrays
      * @param Integer[] $nums2
      * @return Integer[]
      */
-    function intersection($nums1, $nums2) {
+    public function intersection($nums1, $nums2)
+    {
         $a3 = array_intersect($nums1, $nums2);
         return array_unique($a3);
     }

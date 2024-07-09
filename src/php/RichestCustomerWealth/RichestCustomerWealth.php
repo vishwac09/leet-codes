@@ -12,7 +12,8 @@ class RichestCustomerWealth
      * @param Integer[][] $accounts
      * @return Integer
      */
-    function maximumWealth($accounts) {
+    public function maximumWealth($accounts)
+    {
         $max = 0;
         foreach ($accounts as $key => $value) {
             $temp = array_sum($value);

@@ -13,7 +13,8 @@
   "require-dev": {
     "php": "^8.0",
     "phpunit/phpunit": "^9",
-    "vishwac09/php-algo-scaffold": "dev-master"
+    "vishwac09/php-algo-scaffold": "dev-master",
+    "friendsofphp/php-cs-fixer": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -26,6 +27,7 @@
     }
   },
   "scripts": {
-    "tests": "./vendor/bin/phpunit --colors tests/php"
+    "tests": "./vendor/bin/phpunit --colors tests/php",
+    "pretty:php": "php-cs-fixer fix --config=./.php-cs-fixer.php"
   }
 }

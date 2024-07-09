@@ -13,10 +13,12 @@ class ValidAnagram
      * @param String $t
      * @return Boolean
      */
-    function isAnagram($s, $t) {
+    public function isAnagram($s, $t)
+    {
         $length = strlen($t);
-        if ($length != strlen($s))
+        if ($length != strlen($s)) {
             return false;
+        }
         $anagramString = str_split($s);
         $flag = false;
         $i = 0;

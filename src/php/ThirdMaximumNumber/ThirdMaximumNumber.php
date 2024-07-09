@@ -12,7 +12,8 @@ class ThirdMaximumNumber
      * @param Integer[] $nums
      * @return Integer
      */
-    function thirdMax($nums) {
+    public function thirdMax($nums)
+    {
         $unique = array_unique($nums);
         $position = count($unique) >= 3 ? 3 : 1;
         sort($unique);

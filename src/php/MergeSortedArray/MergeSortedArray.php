@@ -15,9 +15,9 @@ class MergeSortedArray
      * @param Integer $n
      * @return NULL
      */
-    function merge(&$nums1, $m, $nums2, $n)
+    public function merge(&$nums1, $m, $nums2, $n)
     {
-        for ($i=$m;$i<($m+$n);$i++) {
+        for ($i = $m;$i < ($m + $n);$i++) {
             $nums1[$i] = array_shift($nums2);
         }
         sort($nums1);

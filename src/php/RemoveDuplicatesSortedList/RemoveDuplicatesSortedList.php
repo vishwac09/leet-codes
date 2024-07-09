@@ -8,16 +8,18 @@ class RemoveDuplicatesSortedList
      * @param ListNode $head
      * @return ListNode
      */
-    function deleteDuplicates($head) {
+    public function deleteDuplicates($head)
+    {
         $a = $this->parseNodes($head);
         return $this->createlist($a);
     }
-    
+
     /**
      * @param $ln
      * @return array
      */
-    public function parseNodes($ln) {
+    public function parseNodes($ln)
+    {
         $number = [];
         while($ln != null) {
             if (!in_array($ln->val, $number)) {
@@ -27,25 +29,28 @@ class RemoveDuplicatesSortedList
         }
         return $number;
     }
-    
+
     /**
      * @param $list
      * @param int $index
      * @return ListNode|null
      */
-    public function createlist($list, $index= 0) {
+    public function createlist($list, $index = 0)
+    {
         if (isset($list[$index])) {
-            $node = $this->createlist($list, $index+1);
+            $node = $this->createlist($list, $index + 1);
             return new ListNode($list[$index], $node);
         }
         return null;
     }
 }
 
-class ListNode {
+class ListNode
+{
     public $val = 0;
     public $next = null;
-    function __construct($val = 0, $next = null) {
+    public function __construct($val = 0, $next = null)
+    {
         $this->val = $val;
         $this->next = $next;
     }

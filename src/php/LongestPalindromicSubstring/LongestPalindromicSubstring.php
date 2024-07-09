@@ -16,9 +16,9 @@ class LongestPalindromicSubstring
         }
         $result = '';
         $max = 0;
-        for ($i=0; $i<$length; $i++) {
+        for ($i = 0; $i < $length; $i++) {
             $subString = '';
-            for ($j=$i; $j<$length; $j++) {
+            for ($j = $i; $j < $length; $j++) {
                 $subString .= $s[$j];
                 if (strrev($subString) === $subString && strlen($subString) > $max) {
                     $max = strlen($subString);

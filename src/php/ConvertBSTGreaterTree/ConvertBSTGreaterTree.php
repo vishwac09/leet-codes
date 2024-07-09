@@ -9,18 +9,20 @@ namespace LeetCode\Problems\ConvertBSTGreaterTree;
 class ConvertBSTGreaterTree
 {
     protected $result =  [];
-    
+
     /**
      * @param TreeNode $root
      * @return TreeNode
      */
-    function convertBST($root) {
+    public function convertBST($root)
+    {
         $this->parsePath($root);
         $this->parsePath($root, true);
         return $root;
     }
-    
-    function parsePath(&$root, $add = false) {
+
+    public function parsePath(&$root, $add = false)
+    {
         if (is_null($root)) {
             return;
         }
@@ -29,7 +31,7 @@ class ConvertBSTGreaterTree
             $this->result[] = $root->val;
         } else {
             $key = array_search($root->val, $this->result);
-            for ($i=($key+1);$i<count($this->result);$i++) {
+            for ($i = ($key + 1);$i < count($this->result);$i++) {
                 $root->val += $this->result[$i];
             }
         }

@@ -15,14 +15,16 @@ class PathSum
      * @param Integer $targetSum
      * @return Boolean
      */
-    function hasPathSum($root, $targetSum) {
+    public function hasPathSum($root, $targetSum)
+    {
         if (!$root) {
             return false;
         }
         return $this->parsePath($root, $targetSum, $root->val);
     }
-    
-    function parsePath($root, $target, $sum) {
+
+    public function parsePath($root, $target, $sum)
+    {
         if ($root->left != null) {
             $op  = $this->parsePath($root->left, $target, $root->left->val + $sum);
             if ($op) {
@@ -36,9 +38,9 @@ class PathSum
             }
         }
         if ($sum == $target && $root->left == null & $root->right == null) {
-            return TRUE;
+            return true;
         } else {
-            return FALSE;
+            return false;
         }
     }
 }

@@ -14,26 +14,31 @@ class TrimBinarySearchTree
      * @param Integer $high
      * @return TreeNode
      */
-    function trimBST($root, $low, $high) {
+    public function trimBST($root, $low, $high)
+    {
         return $this->parseTree($root, $low, $high);
     }
-    
-    function parseTree($root, $low, $high) {
-        if (!$root)
+
+    public function parseTree($root, $low, $high)
+    {
+        if (!$root) {
             return null;
+        }
         $root->left = $this->parseTree($root->left, $low, $high);
         $root->right = $this->parseTree($root->right, $low, $high);
         if ($low && $root->val < $low) {
-            if ($root->left)
+            if ($root->left) {
                 return $root->left;
-            else
+            } else {
                 return $root->right;
+            }
         }
         if ($high && $root->val > $high) {
-            if ($root->left)
+            if ($root->left) {
                 return $root->left;
-            else
+            } else {
                 return $root->right;
+            }
         }
         return $root;
     }

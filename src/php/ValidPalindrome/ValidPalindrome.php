@@ -12,9 +12,11 @@ class ValidPalindrome
      * @param String $s
      * @return Boolean
      */
-    function isPalindrome($s) {
-        if (!$s)
+    public function isPalindrome($s)
+    {
+        if (!$s) {
             return true;
+        }
         $s = strtolower($s);
         if (strrev($s) == $s) {
             return true;

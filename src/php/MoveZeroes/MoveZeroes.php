@@ -12,15 +12,16 @@ class MoveZeroes
      * @param Integer[] $nums
      * @return NULL
      */
-    function moveZeroes(&$nums) {
+    public function moveZeroes(&$nums)
+    {
         $size = count($nums);
         $nonZero = 0;
-        for ($i=0;$i<$size;$i++) {
+        for ($i = 0;$i < $size;$i++) {
             if ($nums[$i] != 0) {
                 $nums[$nonZero++] = $nums[$i];
             }
         }
-        for ($i=$nonZero;$i<$size;$i++) {
+        for ($i = $nonZero;$i < $size;$i++) {
             $nums[$i] = 0;
         }
         return $nums;

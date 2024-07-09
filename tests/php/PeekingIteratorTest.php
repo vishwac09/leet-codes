@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class PeekingIteratorTest extends TestCase
 {
-	public function testPeekingIteratorTestExample1()
-	{
+    public function testPeekingIteratorTestExample1()
+    {
         $a = [1,2,3];
         $no = new \ArrayObject($a);
         $itr = $no->getIterator();
@@ -17,5 +17,5 @@ final class PeekingIteratorTest extends TestCase
         $this->assertEquals(true, $pi->hasNext());
         $this->assertEquals(2, $pi->peek());
         $this->assertEquals(2, $pi->next());
-	}
+    }
 }

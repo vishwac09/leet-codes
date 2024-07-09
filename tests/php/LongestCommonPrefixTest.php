@@ -11,8 +11,8 @@ use PHPUnit\Framework\TestCase;
 
 final class LongestCommonPrefixTest extends TestCase
 {
-	public function testLongestCommonPrefixExample1()
-	{
+    public function testLongestCommonPrefixExample1()
+    {
         $lcp = new LongestCommonPrefix();
         $this->assertEquals("fl", $lcp->longestCommonPrefix(["flower", "flow", "flight"]));
         $this->assertEquals("", $lcp->longestCommonPrefix(["dog","racecar","car"]));
@@ -20,5 +20,5 @@ final class LongestCommonPrefixTest extends TestCase
         $this->assertEquals("a", $lcp->longestCommonPrefix(["a"]));
         $this->assertEquals("", $lcp->longestCommonPrefix(["reflower", "flow", "flight"]));
         $this->assertEquals("", $lcp->longestCommonPrefix(["c", "acc", "ccc"]));
-	}
+    }
 }

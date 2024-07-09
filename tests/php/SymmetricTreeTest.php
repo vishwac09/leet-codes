@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class SymmetricTreeTest extends TestCase
 {
-	public function testSymmetricTreeTestExample1()
-	{
+    public function testSymmetricTreeTestExample1()
+    {
         $a = new TreeNode(1);
         $b = new TreeNode(2);
         $c = new TreeNode(2);
@@ -41,5 +41,5 @@ final class SymmetricTreeTest extends TestCase
         $v->right = $y;
         $x->right = $z;
         $this->assertEquals(false, $st->isSymmetric($u));
-	}
+    }
 }

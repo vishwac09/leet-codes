@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class RemoveDuplicatesSortedListTest extends TestCase
 {
-	public function testRemoveDuplicatesSortedListExample1()
-	{
+    public function testRemoveDuplicatesSortedListExample1()
+    {
         $a = new ListNode(1, null);
         $b = new ListNode(2, $a);
         $c = new ListNode(2, $b);
@@ -24,5 +24,5 @@ final class RemoveDuplicatesSortedListTest extends TestCase
         $s = $rdsl->deleteDuplicates($c);
         $this->assertEquals(1, $s->val);
         $this->assertNull($s->next);
-	}
+    }
 }

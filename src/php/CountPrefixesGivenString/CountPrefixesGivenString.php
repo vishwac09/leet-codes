@@ -13,7 +13,8 @@ class CountPrefixesGivenString
      * @param String $s
      * @return Integer
      */
-    function countPrefixes($words, $s) {
+    public function countPrefixes($words, $s)
+    {
         $count = 0;
         foreach ($words as $value) {
             if (stripos($s, $value) === 0) {

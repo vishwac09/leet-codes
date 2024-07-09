@@ -25,7 +25,7 @@ class ZigZag
             $col++;
             $totalChars -= $numRows;
             for ($j = 0; $j < $mid; $j++) {
-                $mapper[($numRows-1) - ($j+1)][$col++] = $s[$pointer++] ?? null;
+                $mapper[($numRows - 1) - ($j + 1)][$col++] = $s[$pointer++] ?? null;
                 $totalChars -= 1;
             }
         }

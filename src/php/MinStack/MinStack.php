@@ -6,44 +6,51 @@
 
 namespace LeetCode\Problems\MinStack;
 
-class MinStack {
+class MinStack
+{
     private $list;
     private $pointer;
     /**
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->list = [];
         $this->pointer = -1;
     }
-    
+
     /**
      * @param Integer $val
      * @return NULL
      */
-    function push($val) {
-        $this->pointer=$this->pointer + 1;
+    public function push($val)
+    {
+        $this->pointer = $this->pointer + 1;
         $this->list[$this->pointer] = $val;
     }
-    
+
     /**
      * @return NULL
      */
-    function pop() {
+    public function pop()
+    {
         unset($this->list[$this->pointer]);
-        $this->pointer = $this->pointer - 1;;
+        $this->pointer = $this->pointer - 1;
+        ;
     }
-    
+
     /**
      * @return Integer
      */
-    function top() {
+    public function top()
+    {
         return $this->list[$this->pointer];
     }
-    
+
     /**
      * @return Integer
      */
-    function getMin() {
+    public function getMin()
+    {
         return min($this->list);
     }
 }

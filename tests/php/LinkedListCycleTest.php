@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class LinkedListCycleTest extends TestCase
 {
-	public function testLinkedListCycleExample1()
-	{
+    public function testLinkedListCycleExample1()
+    {
         $llc = new LinkedListCycle();
         $a = new ListNode(3, null);
         $b = new ListNode(2, null);
@@ -27,5 +27,5 @@ final class LinkedListCycleTest extends TestCase
         $q->next = null;
         $this->assertEquals(false, $llc->hasCycle($p));
         $this->assertEquals(false, $llc->hasCycleA2($p));
-	}
+    }
 }

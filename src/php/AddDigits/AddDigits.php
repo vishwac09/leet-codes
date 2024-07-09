@@ -12,7 +12,8 @@ class AddDigits
      * @param Integer $num
      * @return Integer
      */
-    function addDigits($num) {
+    public function addDigits($num)
+    {
         $sum = 0;
         while ($num > 0) {
             $sum += $num % 10;
@@ -25,4 +26,3 @@ class AddDigits
         return $sum;
     }
 }
-

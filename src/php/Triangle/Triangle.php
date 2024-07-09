@@ -12,7 +12,8 @@ class Triangle
      * @param Integer[][] $triangle
      * @return Integer
      */
-    function minimumTotal($triangle) {
+    public function minimumTotal($triangle)
+    {
         $sum = 0;
         foreach ($triangle as $value) {
             $sum += min($value);

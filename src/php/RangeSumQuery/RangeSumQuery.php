@@ -13,7 +13,7 @@ class RangeSumQuery
     /**
      * @param int[] $nums
      */
-    function __construct($nums)
+    public function __construct($nums)
     {
         $this->nums = $nums;
     }
@@ -23,7 +23,7 @@ class RangeSumQuery
      * @param int $right
      * @return int
      */
-    function sumRange($left, $right)
+    public function sumRange($left, $right)
     {
         $sum = 0;
         for ($i = $left; $i <= $right; $i++) {

@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class FlattenNestedListIteratorTest extends TestCase
 {
-	public function testFlattenNestedListIteratorTestExample1()
-	{
+    public function testFlattenNestedListIteratorTestExample1()
+    {
         $this->assertEquals(true, true);
-	}
+    }
 }

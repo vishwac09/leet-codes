@@ -12,11 +12,12 @@ class DeleteColumnsMakeSorted
      * @param String[] $strs
      * @return Integer
      */
-    function minDeletionSize($strs) {
+    public function minDeletionSize($strs)
+    {
         $n = strlen($strs[0]);
         $total = 0;
         $k = 0;
-        for ($i=0; $i<$n; $i++) {
+        for ($i = 0; $i < $n; $i++) {
             $ord = 0;
             foreach($strs as $key => $val) {
                 if (isset($val[$k]) && $ord <= ord($val[$k])) {

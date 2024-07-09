@@ -12,30 +12,33 @@ class ReplaceElemGreatElemRtSide
      * @param Integer[] $arr
      * @return Integer[]
      */
-    function replaceElements($arr) {
+    public function replaceElements($arr)
+    {
         $length = count($arr);
-        if ($length === 1)
+        if ($length === 1) {
             return [-1];
-        for ($i=0; $i<$length; $i++) {
+        }
+        for ($i = 0; $i < $length; $i++) {
             $max = 0;
-            for ($j=$i+1; $j<$length; $j++) {
+            for ($j = $i + 1; $j < $length; $j++) {
                 $max = max($max, $arr[$j]);
             }
             $arr[$i] = $max;
         }
-        $arr[$length-1] = -1;
+        $arr[$length - 1] = -1;
         return $arr;
     }
-    
+
     /**
      * @param Integer[] $arr
      * @return Integer[]
      */
-    function replaceElementsOpt($arr) {
+    public function replaceElementsOpt($arr)
+    {
         $length = count($arr) - 1;
         $last = $arr[$length];
         $arr[$length] = -1;
-        for ($i=$length-1; $i>=0; $i--) {
+        for ($i = $length - 1; $i >= 0; $i--) {
             $o = $last;
             $last = max($last, $arr[$i]);
             $arr[$i] = $o;

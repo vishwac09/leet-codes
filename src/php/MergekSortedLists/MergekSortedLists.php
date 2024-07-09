@@ -14,7 +14,8 @@ class MergekSortedLists
      * @param ListNode[] $lists
      * @return ListNode
      */
-    function mergeKLists($lists) {
+    public function mergeKLists($lists)
+    {
         $values = [];
         $total = 0;
         foreach ($lists as $listNode) {
@@ -27,7 +28,7 @@ class MergekSortedLists
         }
         sort($values);
         $head = $n = new ListNode($values[0]);
-        for ($i=1; $i<$total; $i++) {
+        for ($i = 1; $i < $total; $i++) {
             $n->next = new ListNode($values[$i]);
             $n = $n->next;
         }

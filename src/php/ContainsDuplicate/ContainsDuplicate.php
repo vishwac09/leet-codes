@@ -12,7 +12,8 @@ class ContainsDuplicate
      * @param Integer[] $nums
      * @return Boolean
      */
-    function containsDuplicate($nums) {
+    public function containsDuplicate($nums)
+    {
         $originalLength = count($nums);
         $uniqueLength = count(array_unique($nums));
         return $originalLength == $uniqueLength ? false : true;

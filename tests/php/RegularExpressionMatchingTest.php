@@ -10,6 +10,6 @@ final class RegularExpressionMatchingTest extends TestCase
     public function testRegularExpressionMatchingExample1()
     {
         $rem = new RegularExpressionMatching();
-        $this->assertSame(TRUE, $rem->isMatch("aa", "a"));
+        $this->assertSame(true, $rem->isMatch("aa", "a"));
     }
 }

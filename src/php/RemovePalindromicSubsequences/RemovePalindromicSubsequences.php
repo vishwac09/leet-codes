@@ -12,12 +12,14 @@ class RemovePalindromicSubsequences
      * @param String $s
      * @return Integer
      */
-    function removePalindromeSub($s) {
-        if(!$s)
+    public function removePalindromeSub($s)
+    {
+        if(!$s) {
             return 0;
-        else if($s==strrev($s))
+        } elseif($s == strrev($s)) {
             return 1;
-        else
+        } else {
             return 2;
+        }
     }
 }

@@ -4,7 +4,6 @@ namespace LeetCode\Problems\LongestSubstring;
 
 class LongestSubstring
 {
-    
     /**
      * @param String $s
      * @return Integer
@@ -16,7 +15,7 @@ class LongestSubstring
         if (!$length) {
             return $max;
         }
-        for ($i=0; $i<$length; $i++) {
+        for ($i = 0; $i < $length; $i++) {
             $subString = $s[$i];
             $j = $i + 1;
             while (!empty($s[$j]) && strpos($subString, $s[$j]) === false) {

@@ -6,11 +6,12 @@
 
 use LeetCode\Problems\NimGame\NimGame;
 use PHPUnit\Framework\TestCase;
+
 final class NimGameTest extends TestCase
 {
-	public function testNimGameTestExample1()
-	{
-		$nm = new NimGame();
-		$this->assertEquals($nm->canWinNim(4), false);
-	}
+    public function testNimGameTestExample1()
+    {
+        $nm = new NimGame();
+        $this->assertEquals($nm->canWinNim(4), false);
+    }
 }

@@ -12,17 +12,17 @@ class RomanToInteger
      * @param String $s
      * @return Integer
      */
-    function romanToIntOld($s) {
+    public function romanToIntOld($s)
+    {
         $len = strlen($s);
         $i = 0;
         $result = 0;
         while ($i < $len) {
-            
-            if (isset($s[$i+1]) && ($this->romanToDecimal($s[$i]) < $this->romanToDecimal($s[$i+1]))) {
-                $result += ($this->romanToDecimal($s[$i+1]) - $this->romanToDecimal($s[$i]));
+
+            if (isset($s[$i + 1]) && ($this->romanToDecimal($s[$i]) < $this->romanToDecimal($s[$i + 1]))) {
+                $result += ($this->romanToDecimal($s[$i + 1]) - $this->romanToDecimal($s[$i]));
                 $i = $i + 2;
-            }
-            else {
+            } else {
                 $result += $this->romanToDecimal($s[$i]);
                 $i++;
             }
@@ -30,18 +30,19 @@ class RomanToInteger
         }
         return $result;
     }
-    
+
     /**
      * @param String $s
      * @return Integer
      */
-    function romanToInt($s) {
+    public function romanToInt($s)
+    {
         $len = strlen($s);
         $i = 0;
         $result = 0;
         while ($i < $len) {
-            if (isset($s[$i+1]) && $this->romanToDecimal($s[$i]) < $this->romanToDecimal($s[$i+1])) {
-                $result += $this->romanToDecimal($s[$i+1]) - $this->romanToDecimal($s[$i]);
+            if (isset($s[$i + 1]) && $this->romanToDecimal($s[$i]) < $this->romanToDecimal($s[$i + 1])) {
+                $result += $this->romanToDecimal($s[$i + 1]) - $this->romanToDecimal($s[$i]);
                 $i++;
             } else {
                 $result += $this->romanToDecimal($s[$i]);
@@ -50,13 +51,14 @@ class RomanToInteger
         }
         return $result;
     }
-    
+
     /**
      * Converts roman characters to decimal.
      * @param String $char
      * @return int
      */
-    function romanToDecimal($char) {
+    public function romanToDecimal($char)
+    {
         return match ($char) {
             'I' => 1,
             'V' => 5,

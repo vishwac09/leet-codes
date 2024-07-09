@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class SumLeftLeavesTest extends TestCase
 {
-	public function testSumLeftLeavesTestExample1()
-	{
+    public function testSumLeftLeavesTestExample1()
+    {
         $sll = new SumLeftLeaves();
         $a = new TreeNode(1);
         $b = new TreeNode(2);
@@ -21,5 +21,5 @@ final class SumLeftLeavesTest extends TestCase
         $b->left = $d;
         $b->right = $e;
         $this->assertEquals(4, $sll->sumOfLeftLeaves($a));
-	}
+    }
 }

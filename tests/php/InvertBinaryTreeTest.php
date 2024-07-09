@@ -1,11 +1,11 @@
 <?php
 
 namespace LeetCode\Tests {
-    
+
     use LeetCode\Problems\InvertBinaryTree\InvertBinaryTree;
     use PHPUnit\Framework\TestCase;
     use LeetCode\Problems\Helpers\TreeNode;
-    
+
     final class InvertBinaryTreeTest extends TestCase
     {
         public function testInvertBinaryTreeTestExample1()
@@ -20,5 +20,5 @@ namespace LeetCode\Tests {
             $this->assertEquals(1, $result->right->val);
         }
     }
-    
+
 }

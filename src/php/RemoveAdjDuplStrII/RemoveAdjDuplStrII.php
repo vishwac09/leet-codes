@@ -13,10 +13,11 @@ class RemoveAdjDuplStrII
      * @param Integer $k
      * @return String
      */
-    function removeDuplicates($s, $k) {
+    public function removeDuplicates($s, $k)
+    {
         $len = strlen($s);
         $m_t = new \SplStack();
-        for ($i=0; $i<$len; $i++) {
+        for ($i = 0; $i < $len; $i++) {
             $h_t = new \SplStack();
             $h_t->push($s[$i]);
             while (!$m_t->isEmpty() && $m_t->top() == $s[$i]) {

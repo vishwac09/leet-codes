@@ -12,7 +12,8 @@ class ReverseString
      * @param String[] $s
      * @return NULL
      */
-    function reverseString(&$s) {
+    public function reverseString(&$s)
+    {
         $s = implode('', $s);
         $s = strrev($s);
         $s = str_split($s);

@@ -14,7 +14,7 @@ class IncreasingOrderSearchTree
      * @param TreeNode $root
      * @return TreeNode
      */
-    function increasingBST($root)
+    public function increasingBST($root)
     {
         if (!$root) {
             return null;
@@ -22,8 +22,9 @@ class IncreasingOrderSearchTree
         $parsedResult = $this->parseTree($root);
         return $this->createBST($parsedResult);
     }
-    
-    function parseTree($node = null) {
+
+    public function parseTree($node = null)
+    {
         $ret = [];
         // Get the Left childs
         if (isset($node->left)) {
@@ -39,11 +40,12 @@ class IncreasingOrderSearchTree
         }
         return $ret;
     }
-    
-    function createBST($list, $index = 0) {
+
+    public function createBST($list, $index = 0)
+    {
         if (isset($list[$index])) {
-            $node = $this->createBST($list, $index+1);
-            return new TreeNode($list[$index], null,  $node);
+            $node = $this->createBST($list, $index + 1);
+            return new TreeNode($list[$index], null, $node);
         }
         return null;
     }

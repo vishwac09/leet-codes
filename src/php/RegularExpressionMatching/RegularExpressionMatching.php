@@ -9,7 +9,7 @@ class RegularExpressionMatching
      * @param String $p
      * @return Boolean
      */
-    function isMatch(string $s, string $p): bool
+    public function isMatch(string $s, string $p): bool
     {
         $pattern = '/' . $p . '/';
         return preg_match($pattern, $s);

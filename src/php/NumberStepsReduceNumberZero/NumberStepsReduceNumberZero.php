@@ -12,7 +12,8 @@ class NumberStepsReduceNumberZero
      * @param Integer $num
      * @return Integer
      */
-    function numberOfSteps($num) {
+    public function numberOfSteps($num)
+    {
         $count = 0;
         if ($num % 2 == 1) {
             $num = $num - 1;

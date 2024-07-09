@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class PathSumTest extends TestCase
 {
-	public function testPathSumTestExample1()
-	{
+    public function testPathSumTestExample1()
+    {
         $sbst = new PathSum();
         $a = new TreeNode(2);
         $b = new TreeNode(3);
@@ -39,5 +39,5 @@ final class PathSumTest extends TestCase
         $q = new TreeNode(2);
         $r->left = $q;
         $this->assertEquals(false, $sbst->hasPathSum($r, 1));
-	}
+    }
 }

@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class MergeSortedArrayTest extends TestCase
 {
-	public function testMergeSortedArrayExample1()
-	{
+    public function testMergeSortedArrayExample1()
+    {
         $msa = new MergeSortedArray();
         $n1 = [1];
         $msa->merge($n1, 1, [], 0);
@@ -22,5 +22,5 @@ final class MergeSortedArrayTest extends TestCase
         $n4 = [0];
         $msa->merge($n4, 0, [1], 1);
         $this->assertEquals([1], $n4);
-	}
+    }
 }

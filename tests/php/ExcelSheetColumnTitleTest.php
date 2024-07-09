@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class ExcelSheetColumnTitleTest extends TestCase
 {
-	public function testExcelSheetColumnTitleExample1()
-	{
+    public function testExcelSheetColumnTitleExample1()
+    {
         $esct = new ExcelSheetColumnTitle();
         $this->assertEquals('A', $esct->convertToTitle(1));
         $this->assertEquals('Z', $esct->convertToTitle(26));
@@ -16,5 +16,5 @@ final class ExcelSheetColumnTitleTest extends TestCase
         $this->assertEquals('ZY', $esct->convertToTitle(701));
         $this->assertEquals('ZZ', $esct->convertToTitle(702));
         $this->assertEquals('AAA', $esct->convertToTitle(703));
-	}
+    }
 }

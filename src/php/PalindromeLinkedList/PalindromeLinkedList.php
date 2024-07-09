@@ -12,9 +12,11 @@ class PalindromeLinkedList
      * @param ListNode $head
      * @return Boolean
      */
-    function isPalindrome($head) {
-        if (!$head)
+    public function isPalindrome($head)
+    {
+        if (!$head) {
             return false;
+        }
         $numbers = [];
         $length = 0;
         while ($head != null) {
@@ -23,7 +25,8 @@ class PalindromeLinkedList
             $head = $head->next;
         }
         $mid = $length / 2;
-        $i = 0; $j = $length - 1;
+        $i = 0;
+        $j = $length - 1;
         $flag = true;
         while ($i < $mid && $j >= $mid) {
             if ($numbers[$i] != $numbers[$j]) {

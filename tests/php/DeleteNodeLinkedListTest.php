@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class DeleteNodeLinkedListTest extends TestCase
 {
-	public function testDeleteNodeLinkedListTestExample1()
-	{
+    public function testDeleteNodeLinkedListTestExample1()
+    {
         $a = new ListNode(4);
         $b = new ListNode(5);
         $c = new ListNode(1);
@@ -20,5 +20,5 @@ final class DeleteNodeLinkedListTest extends TestCase
         $dnll = new DeleteNodeLinkedList($a);
         $res = $dnll->deleteNode($b);
         $this->assertEquals(null, $res);
-	}
+    }
 }

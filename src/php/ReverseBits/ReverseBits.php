@@ -12,7 +12,7 @@ class ReverseBits
      * @param Integer $n
      * @return Integer
      */
-    function reverseBits($n)
+    public function reverseBits($n)
     {
         $res = 0;
         for ($i = 0; $i < 32; $i++) {

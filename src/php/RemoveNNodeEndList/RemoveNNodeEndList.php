@@ -8,13 +8,13 @@ namespace LeetCode\Problems\RemoveNNodeEndList;
 
 class RemoveNNodeEndList
 {
-
     /**
      * @param ListNode $head
      * @param Integer $n
      * @return ListNode
      */
-    function removeNthFromEnd($head, $n) {
+    public function removeNthFromEnd($head, $n)
+    {
         $l = 0;
         $node = $head;
         while ($node) {
@@ -31,7 +31,7 @@ class RemoveNNodeEndList
         $prev = $head;
         while ($node) {
             if ($i === $l - $n) {
-            
+
                 $prev->next = $node->next;
                 $node->next = null;
                 return $head;

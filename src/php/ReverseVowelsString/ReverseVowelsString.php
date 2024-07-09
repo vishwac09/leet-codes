@@ -12,7 +12,7 @@ class ReverseVowelsString
      * @param String $s
      * @return String
      */
-    function reverseVowels($s)
+    public function reverseVowels($s)
     {
         $strLength = strlen($s);
         if ($strLength === 1) {
@@ -37,11 +37,11 @@ class ReverseVowelsString
 
     /**
      * Check if the passed character is vowel or not.
-     * 
+     *
      * @param String $ch
      * @return Bool
      */
-    function isVowel($ch)
+    public function isVowel($ch)
     {
         if (
             'A' == $ch || 'a' == $ch ||

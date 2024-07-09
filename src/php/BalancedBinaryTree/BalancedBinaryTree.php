@@ -12,15 +12,18 @@ class BalancedBinaryTree
      * @param TreeNode $root
      * @return Boolean
      */
-    function isBalanced($root) {
-         if (is_null($root))
-             return true;
-         $left = $this->getHeight($root->left);
-         $right = $this->getHeight($root->right);
-         return abs($left - $right) < 2;
+    public function isBalanced($root)
+    {
+        if (is_null($root)) {
+            return true;
+        }
+        $left = $this->getHeight($root->left);
+        $right = $this->getHeight($root->right);
+        return abs($left - $right) < 2;
     }
 
-    function getHeight($a) {
+    public function getHeight($a)
+    {
         if (is_null($a)) {
             return 0;
         }

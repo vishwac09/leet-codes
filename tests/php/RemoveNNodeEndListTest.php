@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class RemoveNNodeEndListTest extends TestCase
 {
-	public function testRemoveNNodeEndListTestExample1()
-	{
+    public function testRemoveNNodeEndListTestExample1()
+    {
         $rnnnel = new RemoveNNodeEndList();
         $a = new ListNode(1);
         $b = new ListNode(2);
@@ -25,5 +25,5 @@ final class RemoveNNodeEndListTest extends TestCase
         $r = new ListNode(1);
         $result = $rnnnel->removeNthFromEnd($r, 1);
         $this->assertEquals(null, $result);
-	}
+    }
 }

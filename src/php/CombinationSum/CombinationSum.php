@@ -13,18 +13,20 @@ class CombinationSum
      * @param Integer $target
      * @return Integer[][]
      */
-    function combinationSum($candidates, $target) {
+    public function combinationSum($candidates, $target)
+    {
         $result = [];
         $this->search($candidates, count($candidates), 0, $target, [], $result);
         return $result;
     }
-    
-    function search($candidates, $candidatesLength, $startIndex, $target, $set, &$result) {
+
+    public function search($candidates, $candidatesLength, $startIndex, $target, $set, &$result)
+    {
         if ($target == 0) {
             array_push($result, $set);
             return;
         }
-        for ($i=$startIndex; $i<$candidatesLength; $i++) {
+        for ($i = $startIndex; $i < $candidatesLength; $i++) {
             $rem = $target - $candidates[$i];
             if ($rem >= 0) {
                 array_push($set, $candidates[$i]);

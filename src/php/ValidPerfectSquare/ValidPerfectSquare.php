@@ -12,16 +12,17 @@ class ValidPerfectSquare
      * @param Integer $num
      * @return Boolean
      */
-    function isPerfectSquare($num) {
+    public function isPerfectSquare($num)
+    {
         $r = $num;
         $flag = true;
         $isPS = false;
         $prev = 0;
         while ($flag) {
-            $r = ($r + $num/$r)/2;
-            if (floor($r)*floor($r) == $num) {
+            $r = ($r + $num / $r) / 2;
+            if (floor($r) * floor($r) == $num) {
                 $isPS = true;
-                $flag= false;
+                $flag = false;
             }
             if ($r == $prev) {
                 break;

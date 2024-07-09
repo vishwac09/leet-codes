@@ -15,22 +15,24 @@ class CountSortedVowelStrings
      * @param Integer $n
      * @return Integer
      */
-    function countVowelStrings($n) {
+    public function countVowelStrings($n)
+    {
         if ($n == 1) {
             return 5;
         }
         $this->vowels($n, 0, '');
         return $this->count;
     }
-    
-    function vowels($n, $start, $char) {
+
+    public function vowels($n, $start, $char)
+    {
         if ($n == 0) {
             $this->rest[] = $char;
             $this->count++;
             return;
         }
         $n = $n - 1;
-        for ($i=$start; $i<5; $i++) {
+        for ($i = $start; $i < 5; $i++) {
             $char .= $this->str[$i];
             $this->vowels($n, $i, $char);
         }

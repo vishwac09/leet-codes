@@ -11,13 +11,13 @@ use PHPUnit\Framework\TestCase;
 
 final class ReverseVowelsStringTest extends TestCase
 {
-	public function testReverseVowelsStringTestExample1()
-	{
-		$rvs = new ReverseVowelsString();
-		$this->assertEquals('holle', $rvs->reverseVowels('hello'));
-		$this->assertEquals('leetcode', $rvs->reverseVowels('leotcede'));
-		$this->assertEquals('e', $rvs->reverseVowels('e'));
-		$this->assertEquals('', $rvs->reverseVowels(''));
-		$this->assertEquals('eeeee', $rvs->reverseVowels('eeeee'));
-	}
+    public function testReverseVowelsStringTestExample1()
+    {
+        $rvs = new ReverseVowelsString();
+        $this->assertEquals('holle', $rvs->reverseVowels('hello'));
+        $this->assertEquals('leetcode', $rvs->reverseVowels('leotcede'));
+        $this->assertEquals('e', $rvs->reverseVowels('e'));
+        $this->assertEquals('', $rvs->reverseVowels(''));
+        $this->assertEquals('eeeee', $rvs->reverseVowels('eeeee'));
+    }
 }

@@ -23,11 +23,12 @@ class LetterCombinationsPhoneNumber
      * @param String $digits
      * @return String[]
      */
-    function letterCombinations($digits) {
+    public function letterCombinations($digits)
+    {
         if (strlen($digits) < 1) {
             return $this->op;
         }
-        
+
         if (strlen($digits) === 1) {
             return $this->letters[$digits];
         } else {
@@ -35,8 +36,9 @@ class LetterCombinationsPhoneNumber
         }
         return $this->op;
     }
-    
-    function letterCombinationRecursive($digits, $letter = '') {
+
+    public function letterCombinationRecursive($digits, $letter = '')
+    {
         if (empty($digits)) {
             $this->op[] = $letter;
             return;

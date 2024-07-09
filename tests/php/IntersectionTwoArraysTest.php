@@ -7,9 +7,9 @@ use PHPUnit\Framework\TestCase;
 
 final class IntersectionTwoArraysTest extends TestCase
 {
-	public function testIntersectionTwoArraysTestExample1()
-	{
+    public function testIntersectionTwoArraysTestExample1()
+    {
         $ita = new IntersectionTwoArrays();
-        $this->assertEquals([1=>2], $ita->intersection([1,2,2,1], [2,2]));
-	}
+        $this->assertEquals([1 => 2], $ita->intersection([1,2,2,1], [2,2]));
+    }
 }

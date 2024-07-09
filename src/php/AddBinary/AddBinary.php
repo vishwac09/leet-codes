@@ -13,8 +13,10 @@ class AddBinary
      * @param String $b
      * @return String
      */
-    function addBinary($a, $b) {
-        $c=0;$res=[];
+    public function addBinary($a, $b)
+    {
+        $c = 0;
+        $res = [];
         $as = strlen($a);
         $bs = strlen($b);
         while ($as > 0 || $bs > 0) {
@@ -22,11 +24,11 @@ class AddBinary
             $as--;
             $an = $as >= 0 ? $a[$as] : 0;
             $bn = $bs >= 0 ? $b[$bs] : 0;
-            $s = intval($an)+intval($bn)+$c;
+            $s = intval($an) + intval($bn) + $c;
             if ($s == 2) {
                 $s = 0;
                 $c = 1;
-            } else if ($s == 3) {
+            } elseif ($s == 3) {
                 $s = 1;
                 $c = 1;
             } else {

@@ -14,37 +14,42 @@ class ImplementStackQueues
     /**
      * Default constructor
      */
-    function __construct() {
+    public function __construct()
+    {
         $this->stack = [];
         $this->count = -1;
     }
-    
+
     /**
      * @param Integer $x
      * @return NULL
      */
-    function push($x) {
+    public function push($x)
+    {
         $this->stack[++$this->count] = $x;
     }
-    
+
     /**
      * @return Integer
      */
-    function pop() {
+    public function pop()
+    {
         return $this->stack[$this->count--];
     }
-    
+
     /**
      * @return Integer
      */
-    function top() {
+    public function top()
+    {
         return $this->stack[$this->count];
     }
-    
+
     /**
      * @return Boolean
      */
-    function empty() {
+    public function empty()
+    {
         return $this->count < 0;
     }
 }

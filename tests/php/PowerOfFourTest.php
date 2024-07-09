@@ -11,9 +11,9 @@ use PHPUnit\Framework\TestCase;
 
 final class PowerOfFourTest extends TestCase
 {
-	public function testPowerOfFourTestExample1()
-	{
-		$pof = new PowerOfFour();
-		$this->assertEquals(true, $pof->isPowerOfFour(16));
-	}
+    public function testPowerOfFourTestExample1()
+    {
+        $pof = new PowerOfFour();
+        $this->assertEquals(true, $pof->isPowerOfFour(16));
+    }
 }

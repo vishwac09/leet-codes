@@ -8,11 +8,12 @@ namespace LeetCode\Tests;
 
 use LeetCode\Problems\FizzBuzz\FizzBuzz;
 use PHPUnit\Framework\TestCase;
+
 final class FizzBuzzTest extends TestCase
 {
-	public function testFizzBuzzTestExample1()
-	{
-		$fb = new FizzBuzz();
-		$this->assertEquals(["1", "2", "Fizz"], $fb->fizzBuzz(3));
-	}
+    public function testFizzBuzzTestExample1()
+    {
+        $fb = new FizzBuzz();
+        $this->assertEquals(["1", "2", "Fizz"], $fb->fizzBuzz(3));
+    }
 }

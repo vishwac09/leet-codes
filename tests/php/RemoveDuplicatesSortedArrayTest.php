@@ -7,8 +7,8 @@ use PHPUnit\Framework\TestCase;
 
 final class RemoveDuplicatesSortedArrayTest extends TestCase
 {
-	public function testRemoveDuplicatesSortedArrayExample1()
-	{
+    public function testRemoveDuplicatesSortedArrayExample1()
+    {
         $rdsat = new RemoveDuplicatesSortedArray();
         $n1 = [1, 1, 2];
         $this->assertEquals(2, $rdsat->removeDuplicates($n1));
@@ -18,5 +18,5 @@ final class RemoveDuplicatesSortedArrayTest extends TestCase
         $this->assertEquals(1, $rdsat->removeDuplicates($n3));
         $n4 = [1];
         $this->assertEquals(1, $rdsat->removeDuplicates($n4));
-	}
+    }
 }

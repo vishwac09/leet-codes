@@ -12,11 +12,12 @@ class MajorityElement
      * @param Integer[] $nums
      * @return Integer
      */
-    function majorityElement($nums) {
+    public function majorityElement($nums)
+    {
         $length = count($nums);
         $total = $max = 0;
         $parsed = [];
-        for ($i=0;$i<$length;$i++) {
+        for ($i = 0;$i < $length;$i++) {
             if (in_array($nums[$i], $parsed)) {
                 continue;
             }
@@ -25,7 +26,7 @@ class MajorityElement
                     $max++;
                 }
             }
-            $total = $max > $length/2 ? $i : $total;
+            $total = $max > $length / 2 ? $i : $total;
             $parsed[]  = $nums[$i];
             $max = 0;
         }

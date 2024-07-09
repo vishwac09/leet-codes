@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class SearchBinarySearchTreeTest extends TestCase
 {
-	public function testSearchBinarySearchTreeExample1()
-	{
+    public function testSearchBinarySearchTreeExample1()
+    {
         $sbst = new SearchBinarySearchTree();
         $a = new TreeNode(3);
         $b = new TreeNode(1);
@@ -21,5 +21,5 @@ final class SearchBinarySearchTreeTest extends TestCase
         $this->assertEquals(null, $sbst->searchBST($e, 10));
         $this->assertEquals($d, $sbst->searchBST($e, 7));
         $this->assertEquals($t, $sbst->searchBST($e, 9));
-	}
+    }
 }

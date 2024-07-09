@@ -9,12 +9,13 @@ namespace LeetCode\Problems\MaximumDepthBinaryTree;
 class MaximumDepthBinaryTree
 {
     protected $result =  [];
-    
+
     /**
      * @param TreeNode $root
      * @return Integer
      */
-    function maxDepth($root) {
+    public function maxDepth($root)
+    {
         $this->parsePath($root, 0);
         if (count($this->result) == 0) {
             return 0;
@@ -22,8 +23,9 @@ class MaximumDepthBinaryTree
             return max($this->result);
         }
     }
-    
-    function parsePath($root, $path) {
+
+    public function parsePath($root, $path)
+    {
         if (is_null($root)) {
             return;
         }

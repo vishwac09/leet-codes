@@ -10,19 +10,21 @@ class KSmallestElementBST
 {
     protected $result;
     protected $count;
-    
+
     /**
      * @param TreeNode $root
      * @param Integer $k
      * @return Integer
      */
-    function kthSmallest($root, $k) {
+    public function kthSmallest($root, $k)
+    {
         $this->count = $k;
         $this->parseTree($root);
         return $this->result;
     }
-    
-    function parseTree($root = null) {
+
+    public function parseTree($root = null)
+    {
         if (is_null($root)) {
             return;
         }

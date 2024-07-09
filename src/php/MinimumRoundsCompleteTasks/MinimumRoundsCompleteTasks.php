@@ -12,18 +12,19 @@ class MinimumRoundsCompleteTasks
      * @param Integer[] $tasks
      * @return Integer
      */
-    function minimumRounds($tasks) {
+    public function minimumRounds($tasks)
+    {
         $minimumRounds = 0;
         $frequency = [];
         foreach($tasks as $key => $value) {
             $frequency[$value] = isset($frequency[$value]) ? $frequency[$value] + 1 : 1;
         }
-        
+
         foreach($frequency as $key => $value) {
             if ($value == 1) {
                 return -1;
             }
-            
+
             if ($value % 3 == 0) {
                 $minimumRounds += floor($value / 3);
             } else {

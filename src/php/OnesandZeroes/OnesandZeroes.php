@@ -14,8 +14,9 @@ class OnesandZeroes
      * @param Integer $n
      * @return Integer
      */
-    function findMaxForm($strs, $m, $n) {
-        $count=0;
+    public function findMaxForm($strs, $m, $n)
+    {
+        $count = 0;
         foreach($strs as $key => $value) {
             $listCount = array_count_values(str_split($value));
             $zeroCount = $listCount[0] ?? 0;

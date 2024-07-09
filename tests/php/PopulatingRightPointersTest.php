@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class PopulatingRightPointersTest extends TestCase
 {
-	public function testPopulatingRightPointersTestExample1()
-	{
+    public function testPopulatingRightPointersTestExample1()
+    {
         $a = new Node(1);
         $b = new Node(2);
         $c = new Node(3);
@@ -18,5 +18,5 @@ final class PopulatingRightPointersTest extends TestCase
         $plrp = new PopulatingRightPointers();
         $res = $plrp->connect($a);
         $this->assertEquals(1, $res->val);
-	}
+    }
 }

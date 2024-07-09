@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 final class ConvertBSTGreaterTreeTest extends TestCase
 {
-	public function testConvertBSTGreaterTreeTestExample1()
-	{
+    public function testConvertBSTGreaterTreeTestExample1()
+    {
         $cbgt = new ConvertBSTGreaterTree();
         $a = new TreeNode(1);
         $b = new TreeNode(3);

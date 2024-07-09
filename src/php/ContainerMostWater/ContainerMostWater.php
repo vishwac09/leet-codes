@@ -14,7 +14,8 @@ class ContainerMostWater
      * @param Integer[] $height
      * @return Integer
      */
-    function maxArea($height) {
+    public function maxArea($height)
+    {
         $index = 0;
         $last = count($height) - 1;
         $area = PHP_INT_MIN;

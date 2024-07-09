@@ -10,16 +10,18 @@ class BinarySearchTreeIterator
     /**
      * @param TreeNode $root
      */
-    function __construct($root) {
+    public function __construct($root)
+    {
         $this->stack = [];
         $this->root = $root;
         $this->parseTree($root);
     }
-    
+
     /**
      * @return Integer
      */
-    function next() {
+    public function next()
+    {
         $elem = array_pop($this->stack);
         $val = $elem->val;
         if ($elem->right) {
@@ -31,15 +33,17 @@ class BinarySearchTreeIterator
         }
         return $val;
     }
-    
+
     /**
      * @return Boolean
      */
-    function hasNext() {
+    public function hasNext()
+    {
         return count($this->stack) > 0;
     }
-    
-    function parseTree($root) {
+
+    public function parseTree($root)
+    {
         while ($root != null) {
             $this->stack[] = $root;
             $root = $root->left;

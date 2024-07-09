@@ -12,7 +12,8 @@ class FirstUniqueCharacterString
      * @param String $s
      * @return Integer
      */
-    function firstUniqChar($s) {
+    public function firstUniqChar($s)
+    {
         $charList = array_count_values(str_split($s));
         $char = '';
         foreach ($charList as $key => $value) {

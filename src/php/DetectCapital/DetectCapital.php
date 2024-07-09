@@ -12,28 +12,29 @@ class DetectCapital
      * @param String $word
      * @return Boolean
      */
-    function detectCapitalUse($word) {
+    public function detectCapitalUse($word)
+    {
         $length = strlen($word);
         $pattern = '';
-        for($i=0; $i<$length; $i++) {
+        for($i = 0; $i < $length; $i++) {
             $code = ord($word[$i]);
-            if ($code >= 65 && $code <=90) {
+            if ($code >= 65 && $code <= 90) {
                 $pattern .= 1;
-            } else if ($code >= 97 && $code <= 122) {
+            } elseif ($code >= 97 && $code <= 122) {
                 $pattern .= 2;
             }
         }
         // check all 1
         if (substr_count($pattern, '1') === $length || substr_count($pattern, '2') === $length) {
-            return TRUE;
+            return true;
         }
         if ($pattern[0] == 1) {
             $pattern = substr($pattern, 1);
             if (substr_count($pattern, '2') == ($length - 1)) {
-                return TRUE;
+                return true;
             }
         }
-        return FALSE;
+        return false;
     }
 }
 

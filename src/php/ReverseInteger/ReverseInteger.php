@@ -4,10 +4,10 @@ namespace Leetcode\Problems\ReverseInteger;
 
 class ReverseInteger
 {
-  /**
-   * @param Integer $x
-   * @return Integer
-   */
+    /**
+     * @param Integer $x
+     * @return Integer
+     */
     public function reverse(int $x): int
     {
         if (!$x) {

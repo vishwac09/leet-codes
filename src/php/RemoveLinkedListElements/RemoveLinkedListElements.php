@@ -15,18 +15,20 @@ class RemoveLinkedListElements
      * @param Integer $val
      * @return ListNode
      */
-    function removeElements($head, $val)
+    public function removeElements($head, $val)
     {
-        if ($head == null)
+        if ($head == null) {
             return null;
-        $prev = null; $top = $head;
+        }
+        $prev = null;
+        $top = $head;
         while ($head != null) {
             if ($head->val == $val) {
-                    if (is_null($prev)) {
-                        $top = $head->next;
-                    } else {
-                        $prev->next = $head->next;
-                    }
+                if (is_null($prev)) {
+                    $top = $head->next;
+                } else {
+                    $prev->next = $head->next;
+                }
             } else {
                 $prev = $head;
             }

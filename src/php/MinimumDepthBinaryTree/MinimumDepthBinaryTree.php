@@ -9,12 +9,13 @@ namespace LeetCode\Problems\MinimumDepthBinaryTree;
 class MinimumDepthBinaryTree
 {
     protected $result =  [];
-    
+
     /**
      * @param TreeNode $root
      * @return Integer
      */
-    function minDepth($root) {
+    public function minDepth($root)
+    {
         $this->parsePath($root, 0);
         if (count($this->result) == 0) {
             return 0;
@@ -22,8 +23,9 @@ class MinimumDepthBinaryTree
             return min($this->result);
         }
     }
-    
-    function parsePath($root, $path) {
+
+    public function parsePath($root, $path)
+    {
         if (is_null($root)) {
             return;
         }
