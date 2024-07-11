@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/js",
-    "test": "jest src/js",
+    "tests": "jest src/js",
     "pretty:js": "prettier -w src/js"
   },
   "repository": {
