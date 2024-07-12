@@ -16,7 +16,7 @@ Collection of Examples solved on www.leetcode.com
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) [PHP | JS]
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) [PHP | JS]
-- [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)
+- [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) [PHP | JS]
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer)
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number)
