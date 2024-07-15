@@ -13,5 +13,6 @@ final class ReverseIntegerTest extends TestCase
         $this->assertSame(123, $revInt->reverse(321));
         $this->assertSame(0, $revInt->reverse(0));
         $this->assertSame(21, $revInt->reverse(120));
+        $this->assertSame(0, $revInt->reverse(1534236469));
     }
 }
