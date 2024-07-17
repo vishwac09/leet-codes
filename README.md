@@ -18,7 +18,7 @@ Collection of Examples solved on www.leetcode.com
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) [PHP | JS]
 - [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) [PHP | JS]
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer) [PHP | JS]
-- [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)
+- [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) [PHP | JS]
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number)
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) (https://www.youtube.com/watch?v=HAA8mgxlov8&t=2s)
 - [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
