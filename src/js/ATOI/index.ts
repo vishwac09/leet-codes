@@ -24,3 +24,46 @@ export const myAtoi = (s: string): number => {
   }
   return numberDerivedFromInput;
 };
+
+export const myAtoiSol2 = (s: string): number => {
+  s = s.trim();
+  if (!s) return 0;
+  let toReturn = 0;
+  let inputNumbersString = '';
+  let isNegative = false,
+    isPositive = false;
+  for (let i = 0; i < s.length; i++) {
+    if (s?.[i] === '-' && isNegative === false && inputNumbersString.length === 0) {
+      if (s?.[i + 1]?.match(/\d/) === null) {
+        toReturn = 0;
+        break;
+      }
+      isNegative = true;
+      continue;
+    }
+    if (s?.[i] === '+' && isPositive === false && inputNumbersString.length === 0) {
+      if (s?.[i + 1]?.match(/\d/) === null) {
+        toReturn = 0;
+        break;
+      }
+      isPositive = true;
+      continue;
+    }
+    if (s?.[i].match(/\d/) !== null) {
+      inputNumbersString += s[i];
+    } else {
+      break;
+    }
+  }
+  toReturn = Number(inputNumbersString);
+  if (isNegative) {
+    toReturn *= -1;
+  }
+  if (toReturn > 2147483647) {
+    return 2147483647;
+  }
+  if (toReturn < -2147483648) {
+    return -2147483648;
+  }
+  return toReturn;
+};
