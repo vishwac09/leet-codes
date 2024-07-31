@@ -21,8 +21,8 @@ Collection of Examples solved on www.leetcode.com
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) [PHP | JS]
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number) [PHP | JS]
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching) (https://www.youtube.com/watch?v=HAA8mgxlov8&t=2s)
-- [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/)
-- [Number Complement](https://leetcode.com/problems/number-complement/)
+- [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/) [PHP | JS]
+- [Number Complement](https://leetcode.com/problems/number-complement/) [PHP | JS]
 - [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)
 - [Three Sum](https://leetcode.com/problems/3sum/)
 - [Roman To Integer](https://leetcode.com/problems/roman-to-integer/)
