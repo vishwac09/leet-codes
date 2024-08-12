@@ -156,6 +156,8 @@ Collection of Examples solved on www.leetcode.com
 - [Power of Four](https://leetcode.com/problems/power-of-four/description/) PHP | JS
 - [Reverse Vowels of String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
 - [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
+- [Kth Largest Element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/submissions/1352890317/?envType=daily-question&envId=2024-08-12) JS
+- [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) JS
 
 ## Unsolved
 
