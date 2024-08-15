@@ -159,6 +159,7 @@ Collection of Examples solved on www.leetcode.com
 - [Kth Largest Element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/submissions/1352890317/?envType=daily-question&envId=2024-08-12) JS
 - [Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) JS
 - [License Key Formatting](https://leetcode.com/problems/license-key-formatting/description/) JS
+- [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/?envType=daily-question&envId=2024-08-15)
 
 ## Unsolved
 
