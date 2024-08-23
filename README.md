@@ -162,6 +162,7 @@ Collection of Examples solved on www.leetcode.com
 - [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/?envType=daily-question&envId=2024-08-15) JS
 - [Count Segments](https://leetcode.com/problems/number-of-segments-in-a-string/description/) JS
 - [Arranging Coins](https://leetcode.com/problems/arranging-coins/description/) JS
+- [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) JS
 
 ## Unsolved
 
