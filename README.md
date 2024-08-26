@@ -163,6 +163,7 @@ Collection of Examples solved on www.leetcode.com
 - [Count Segments](https://leetcode.com/problems/number-of-segments-in-a-string/description/) JS
 - [Arranging Coins](https://leetcode.com/problems/arranging-coins/description/) JS
 - [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) JS
+- [Next Greated Element I](https://leetcode.com/problems/next-greater-element-i/description/) JS
 
 ## Unsolved
 
