@@ -1,6 +1,6 @@
 import { nextGreaterElement } from '../index';
 
-describe('Problem next greated element test', () => {
+describe('Problem next greater element test', () => {
   test('Test should pass and return array', () => {
     expect(nextGreaterElement([2, 4], [1, 2, 3, 4])).toStrictEqual([3, -1]);
   });

@@ -164,6 +164,7 @@ Collection of Examples solved on www.leetcode.com
 - [Arranging Coins](https://leetcode.com/problems/arranging-coins/description/) JS
 - [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) JS
 - [Next Greated Element I](https://leetcode.com/problems/next-greater-element-i/description/) JS
+- [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) JS
 
 ## Unsolved
 
