@@ -165,6 +165,7 @@ Collection of Examples solved on www.leetcode.com
 - [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/) JS
 - [Next Greated Element I](https://leetcode.com/problems/next-greater-element-i/description/) JS
 - [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) JS
+- [Teemo Attackig](https://leetcode.com/problems/teemo-attacking/submissions/1369990814/) JS
 
 ## Unsolved
 
