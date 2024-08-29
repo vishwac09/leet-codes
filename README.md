@@ -166,6 +166,8 @@ Collection of Examples solved on www.leetcode.com
 - [Next Greated Element I](https://leetcode.com/problems/next-greater-element-i/description/) JS
 - [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/) JS
 - [Teemo Attackig](https://leetcode.com/problems/teemo-attacking/submissions/1369990814/) JS
+- [Max Consecutive ones](https://leetcode.com/problems/max-consecutive-ones/description/) JS
+- [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/) JS
 
 ## Unsolved
 
