@@ -168,6 +168,7 @@ Collection of Examples solved on www.leetcode.com
 - [Teemo Attackig](https://leetcode.com/problems/teemo-attacking/submissions/1369990814/) JS
 - [Max Consecutive ones](https://leetcode.com/problems/max-consecutive-ones/description/) JS
 - [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/) JS
+- [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/) JS
 
 ## Unsolved
 
