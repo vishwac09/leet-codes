@@ -37,5 +37,8 @@
     "tsc": "^2.0.4",
     "typescript": "^5.5.4",
     "typescript-eslint": "^7.13.0"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.1"
   }
 }

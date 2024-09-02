@@ -169,6 +169,8 @@ Collection of Examples solved on www.leetcode.com
 - [Max Consecutive ones](https://leetcode.com/problems/max-consecutive-ones/description/) JS
 - [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/) JS
 - [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/) JS
+- [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/description/) JS
+- [K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/) JS
 
 ## Unsolved
 
