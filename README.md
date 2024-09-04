@@ -173,7 +173,8 @@ Collection of Examples solved on www.leetcode.com
 - [K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/description/) JS
 - [Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/) JS
 - [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/) JS
-- [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question&envId=2024-09-04)
+- [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question&envId=2024-09-04) JS
+- [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) JS
 
 ## Unsolved
 
