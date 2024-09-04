@@ -4,7 +4,6 @@ export const getLucky = (s: string, k: number): number => {
   for (let i = 0; i < s.length; i++) {
     number += String(s.charCodeAt(i) - 96);
   }
-  console.log({ number });
   while (k > 0) {
     sum = 0;
     for (let i = 0; i < number.length; i++) {
