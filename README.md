@@ -176,6 +176,7 @@ Collection of Examples solved on www.leetcode.com
 - [Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/description/?envType=daily-question&envId=2024-09-04) JS
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) JS
 - [Find Missing Observations](https://leetcode.com/problems/find-missing-observations/description/) JS
+- [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) JS
 
 ## Unsolved
 
