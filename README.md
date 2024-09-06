@@ -177,6 +177,7 @@ Collection of Examples solved on www.leetcode.com
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) JS
 - [Find Missing Observations](https://leetcode.com/problems/find-missing-observations/description/) JS
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) JS
+- [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)
 
 ## Unsolved
 
