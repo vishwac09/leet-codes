@@ -17,19 +17,21 @@ export const modifiedList = (nums: number[], head: ListNode | null): ListNode | 
     return null;
   }
   const numsSet = new Set(nums);
-  let prev: ListNode | null = head,
-    curr: ListNode | null = head.next;
 
+  let curr: ListNode | null = head,
+    prev: ListNode | null = null;
   while (curr !== null) {
     if (numsSet.has(curr.val)) {
-      prev.next = curr.next;
-      curr = curr.next;
+      if (prev === null) {
+        prev = curr;
+      } else {
+        prev.next = curr.next;
+      }
     } else {
       prev = curr;
-      curr = curr.next;
     }
+    curr = curr.next;
   }
-
   return numsSet.has(head.val) ? head.next : head;
 };
 
@@ -38,5 +40,5 @@ export const modifiedList = (nums: number[], head: ListNode | null): ListNode | 
 // const b = new ListNode(2, c);
 // const a = new ListNode(1, b);
 
-// const h = modifiedList([2], a);
+// const h = modifiedList([2,1], a);
 // console.log('result', h);

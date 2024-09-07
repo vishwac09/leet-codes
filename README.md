@@ -178,6 +178,7 @@ Collection of Examples solved on www.leetcode.com
 - [Find Missing Observations](https://leetcode.com/problems/find-missing-observations/description/) JS
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) JS
 - [Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)
+- [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/description/)
 
 ## Unsolved
 
