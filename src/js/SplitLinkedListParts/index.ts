@@ -49,7 +49,6 @@ export const splitListToParts = (head: ListNode | null, k: number): Array<ListNo
       prev.next = null;
     }
   }
-  console.log(output);
   return output;
 };
 
