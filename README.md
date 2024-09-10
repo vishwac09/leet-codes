@@ -186,6 +186,7 @@ npm run tests
 - [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) JS
 - [Divide Two Integers](https://leetcode.com) JS
 - [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/) JS
+- [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)
 
 ## Unsolved
 
