@@ -183,6 +183,9 @@ npm run tests
 - [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) Js
 - [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/description/) JS
 - [Add Strings](https://leetcode.com/problems/add-strings/description/) JS
+- [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/) JS
+- [Divide Two Integers](https://leetcode.com) JS
+- [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/) JS
 
 ## Unsolved
 
