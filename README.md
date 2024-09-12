@@ -189,6 +189,8 @@ npm run tests
 - [Minimum Operations to Exceed Threshold Value I](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-i/description/)
 - [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)
 - [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/) JS
+- [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) JS
+
 
 ## Unsolved
 
