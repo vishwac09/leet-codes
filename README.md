@@ -190,6 +190,8 @@ npm run tests
 - [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)
 - [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/) JS
 - [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) JS
+- [Perfect Number](https://leetcode.com/problems/perfect-number/description/)
+- [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/)
 
 
 ## Unsolved
