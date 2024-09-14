@@ -191,7 +191,9 @@ npm run tests
 - [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/) JS
 - [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) JS
 - [Perfect Number](https://leetcode.com/problems/perfect-number/description/)
-- [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/)
+- [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/) JS
+- [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) JS
+- [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description) JS
 
 
 ## Unsolved
