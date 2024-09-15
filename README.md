@@ -194,6 +194,7 @@ npm run tests
 - [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/) JS
 - [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) JS
 - [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description) JS
+- [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description) JS
 
 
 ## Unsolved
