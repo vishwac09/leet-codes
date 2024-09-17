@@ -29,7 +29,7 @@ function robotSim(commands: number[], obstacles: number[][]): number {
       dis = Math.max(dis, x * x + y * y);
     }
   }
-  console.log(path);
+  // console.log(path);
   return dis;
 }
 

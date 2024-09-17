@@ -195,6 +195,9 @@ npm run tests
 - [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) JS
 - [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/description) JS
 - [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/description) JS
+- [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/) JS
+- [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/) JS
+- [Can place flowers](https://leetcode.com/problems/can-place-flowers/description/) JS
 
 
 ## Unsolved
