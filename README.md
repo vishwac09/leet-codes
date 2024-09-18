@@ -199,6 +199,7 @@ npm run tests
 - [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/) JS
 - [Can place flowers](https://leetcode.com/problems/can-place-flowers/description/) JS
 - [Largest Number](https://leetcode.com/problems/largest-number/description/) JS
+- [Permutations](https://leetcode.com/problems/permutations/) JS
 
 
 ## Unsolved
