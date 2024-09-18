@@ -5,6 +5,6 @@ describe('Problem largest number test', () => {
     expect(largestNumber([10, 2])).toEqual('210');
   });
   test('Ramdom cases', () => {
-    expect(largestNumber([3, 30, 34, 5, 9])).toEqual('9534303');
+    expect(largestNumber([3, 30, 34, 5, 9])).toEqual('9534330');
   });
 });
