@@ -200,6 +200,8 @@ npm run tests
 - [Can place flowers](https://leetcode.com/problems/can-place-flowers/description/) JS
 - [Largest Number](https://leetcode.com/problems/largest-number/description/) JS
 - [Permutations](https://leetcode.com/problems/permutations/) JS
+- [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) JS
+- [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/) JS
 
 
 ## Unsolved
