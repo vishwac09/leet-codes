@@ -13,5 +13,5 @@ export const longestSubarray = (nums: number[]): number => {
   return max;
 };
 
-const g = longestSubarray([311155, 311155, 311155, 311155, 311155, 311155, 311155, 311155, 201191, 311155]);
-console.log(g);
+// const g = longestSubarray([311155, 311155, 311155, 311155, 311155, 311155, 311155, 311155, 201191, 311155]);
+// console.log(g);
