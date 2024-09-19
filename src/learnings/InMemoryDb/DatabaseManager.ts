@@ -1,5 +1,5 @@
-import { Table } from "./Interfaces";
-import { InMemoryTable } from "./Table";
+import { Table } from './Interfaces';
+import { InMemoryTable } from './Table';
 
 class InMemoryDatabase {
   /**
@@ -29,17 +29,17 @@ class InMemoryDatabase {
 
   createDatabase(name: string) {
     if (!name) {
-      throw new Error("Database name cannot be empty");
+      throw new Error('Database name cannot be empty');
     }
     this.database.set(name, new Map());
   }
 
   createTable(dbName: string, tableName: string) {
     if (!dbName) {
-      throw new Error("Database name cannot be empty");
+      throw new Error('Database name cannot be empty');
     }
     if (!tableName) {
-      throw new Error("Table name cannot be empty");
+      throw new Error('Table name cannot be empty');
     }
     const db = this.database.get(dbName);
     const table: Table | InMemoryTable = new InMemoryTable();

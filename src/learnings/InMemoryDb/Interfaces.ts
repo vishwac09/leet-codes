@@ -5,7 +5,7 @@ export interface Rows {
 
 export interface Table {
   indexField?: string;
-  indexedData?: Array<Rows>
+  indexedData?: Array<Rows>;
   name: string;
   rows: Rows[];
   schema: Array<string>;
