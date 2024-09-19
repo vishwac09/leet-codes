@@ -5,7 +5,7 @@ vendor
 .DS_Store
 composer.lock
 .php-cs-fixer.cache
-src/learnings
+# src/learnings
 
 /nbproject/private/
 nbproject
