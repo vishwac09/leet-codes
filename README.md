@@ -202,6 +202,7 @@ npm run tests
 - [Permutations](https://leetcode.com/problems/permutations/) JS
 - [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) JS
 - [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/) JS
+- [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/description/)
 
 
 ## Unsolved
