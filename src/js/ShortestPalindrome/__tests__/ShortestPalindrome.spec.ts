@@ -6,5 +6,6 @@ describe('Problem shortest palindrome test', () => {
   });
   test('Random cases', () => {
     expect(shortestPalindrome('abcd')).toBe('dcbabcd');
+    expect(shortestPalindrome('abb')).toBe('bbabb');
   });
 });
